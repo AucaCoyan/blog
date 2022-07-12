@@ -12,7 +12,7 @@ I have many tools I use almost everyday, here are a few of them. I'll promise I'
   Extensions:
 
   - Theme: [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
-    ![img](https://res.cloudinary.com/practicaldev/image/fetch/s--FG-XhI9N--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e6lk8pmjdmdg3ireah0j.png)
+    ![img](https://cdn.hashnode.com/res/hashnode/image/upload/v1657642760203/rGiW18dDd.png?auto=compress)
   - Must have Vim shorcuts: [Vim](https://marketplace.visualstudio.com/publishers/vscodevim)
   - Track your time while you develop: [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
   - Better highligt the errors and warnings [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
