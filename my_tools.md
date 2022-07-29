@@ -24,7 +24,7 @@ I have many tools I use almost everyday, here are a few of them. I'll promise I'
 
 - I really like tools developed in Rust, because usually runs in every OS flawlessly, here are a couple I love:
 
-  - [ripgrep](https://github.com/BurntSushi/ripgrep) is your faster, better, stronger grep (and in Windows!)
+  - [ripgrep](https://github.com/BurntSushi/ripgrep) is your faster, better, stronger grep (and runs in Windows!)
   - [exa](https://github.com/ogham/exa) a modern replacement for `ls`
   - [bat](https://github.com/sharkdp/bat) a cat clone, but better.
 
