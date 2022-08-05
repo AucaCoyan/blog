@@ -15,7 +15,8 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "New blog post": {
+
+  "New-blog-post": {
     "prefix": "new-blog-post",
     "body": [
       "---\n",
@@ -27,7 +28,9 @@
       "cover: ${5:cover image url}",
       "ignorePost: false",
       "---\n",
-      "${0:write your markdown article here}"
+      "${0:write your markdown article here}",
+      "",
+      "this post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/${TM_FILENAME})"
     ],
     "description": "Create a new blog post from an empty file"
   }
