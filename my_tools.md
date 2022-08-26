@@ -5,7 +5,8 @@ subtitle: My favourite tools to develop everyday
 tags: python, vscode, tools
 ---
 
-I have many tools I use almost everyday, here are a few of them. I'll promise I'll update the post if a new toy comes to the playground.
+I have many tools which easy my work (almost) everyday, here are a few of them.
+I'll promise I'll update if a new toy comes to the playground!
 
 - My IDE: [VS Code](https://code.visualstudio.com/)
 
@@ -29,4 +30,4 @@ I have many tools I use almost everyday, here are a few of them. I'll promise I'
   - [bat](https://github.com/sharkdp/bat) a cat clone, but better.
 
 - Other stuff
-  - [github CLI](https://github.com/cli/cli) is amazing
+  - [Github CLI](https://github.com/cli/cli) is amazing
