@@ -1,10 +1,10 @@
 ---
 title: Readability counts!
 domain: aucacoyan.hashnode.dev
-subtitle: Make your can actually read the code
+subtitle: Make your eyes actually read the code
 tags: General Programming, beginners, Developer, learning, Tutorial
 slug: readability_counts
-cover: https://image.shutterstock.com/image-photo/word-readable-on-wood-tiles-600w-476884606.jpg
+cover: https://imgs.search.brave.com/p4Od25-2sFZNCdkNsTqqisIgw_aqlAM-DFptIGBBZcw/rs:fit:600:180:1/g:ce/aHR0cHM6Ly93d3cu/ZG14em9uZS5jb20v/ZG93bmxvYWRzL2lt/YWdlcy9yZWFkYWJs/ZV9jb2RlLnBuZw
 ignorePost: false
 ---
 
