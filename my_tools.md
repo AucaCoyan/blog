@@ -8,9 +8,10 @@ tags: python, vscode, tools
 I have many tools which easy my work (almost) everyday, here are a few of them.
 I'll promise I'll update if a new toy comes to the playground!
 
+## My IDE
 - 🧰 My IDE: [VS Code](https://code.visualstudio.com/)
 
-📓 Extensions
+### 📓 and its Extensions
 
 - 🖌️ Theme: [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
   ![img](https://cdn.hashnode.com/res/hashnode/image/upload/v1657642760203/rGiW18dDd.png?auto=compress)
@@ -23,12 +24,17 @@ I'll promise I'll update if a new toy comes to the playground!
   - On Windows I use [PowerShell v7](https://stackoverflow.com/a/73378788/8552476) in [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), with a customized theme
   - On Ubuntu I use [Fish shell](https://fishshell.com/), also with some [touched settings](https://github.com/AucaCoyan/dotfiles/tree/main/.config/fish)
 
-- I really like tools developed in Rust, because usually runs in every OS flawlessly, here are a couple I love:
 
-  - [`ripgrep`](https://github.com/BurntSushi/ripgrep) is your faster, better, stronger grep (and runs in Windows!)
-  - [`exa`](https://github.com/ogham/exa) a modern replacement for `ls`. (Works on linux tho)(https://github.com/AucaCoyan/dotfiles/tree/main/.config/fish . (Works only on linux tho)
-  - [`bat`](https://github.com/sharkdp/bat) a cat clone, but better.
+## Terminal Apps
 
-- Other stuff
+As for the CLI tools, if available, I prefer tools developed in Rust, because usually runs in every OS flawlessly, nonetheless I also have many others:
+  - `pipx` for the global tools in python (`black`, `flake8`, `pipenv`, `mypy`, `pre-commit`, `all-repos`, etc).
   - [Github CLI](https://github.com/cli/cli) is amazing.
   - I use [chocolatey](https://chocolatey.org/) package manager a lot.
+  - [`ripgrep`](https://github.com/BurntSushi/ripgrep) is your faster, better, stronger grep (and runs in Windows!)
+  - [`exa`](https://github.com/ogham/exa) a modern replacement for `ls`. (Works on linux tho). (Works only on linux tho)
+  - For Windows PowerShell I use [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
+
+  ![](https://raw.githubusercontent.com/devblackops/Terminal-Icons/main/media/screenshot.png)
+  - [`bat`](https://github.com/sharkdp/bat) a cat clone, but better.
+
