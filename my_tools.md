@@ -34,7 +34,7 @@ As for the CLI tools, if available, I prefer tools developed in Rust, because us
 - I use [chocolatey](https://chocolatey.org/) package manager a lot.
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep) is your faster, better, stronger grep (and runs in Windows!)
 - [`exa`](https://github.com/ogham/exa) a modern replacement for `ls`. (Works on linux tho). (Works only on linux tho)
-- For Windows PowerShell I use [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
 - [`fnm` (fast NodeJS Manager)](https://github.com/Schniz/fnm) is a NodeJS version manager written in Rust. Yes, you need that.
+- For Windows PowerShell I use [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
   ![](https://raw.githubusercontent.com/devblackops/Terminal-Icons/main/media/screenshot.png)
 - [`bat`](https://github.com/sharkdp/bat) a cat clone, but better.
