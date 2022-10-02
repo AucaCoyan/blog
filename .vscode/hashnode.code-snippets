@@ -30,7 +30,7 @@
       "---\n",
       "${0:write your markdown article here}",
       "",
-      "this post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/${TM_FILENAME})"
+      "This post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/${TM_FILENAME})"
     ],
     "description": "Create a new blog post from an empty file"
   }

@@ -6,21 +6,32 @@
   // words - list of words to be always considered correct
   "words": [
     "aucacoyan",
+    "cheatsheet",
     "Codely",
+    "docbook",
     "dotfiles",
+    "epub",
+    "esbuild",
     "exa",
     "Flexbox",
     "githubusercontent",
+    "gitmessage",
     "hashnode",
     "mypy",
+    "oneline",
     "pipenv",
     "pipx",
+    "POSIX",
+    "pwebb",
     "pythonic",
     "reactjs",
     "ripgrep",
+    "Shiffman",
     "stackoverflow",
     "vscode",
-    "WakaTime"
+    "WakaTime",
+    "Winget",
+    "wingetdotrun"
   ],
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.
