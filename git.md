@@ -9,7 +9,7 @@ ignorePost: false
 
 git is such an amazing piece of software. It has some complexity to understand it, but once it clicks, you cannot live without it.
 
-The best tutorial I found of git is the playlist [Git and Github for poets - The Coding Train](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV). Really, git is not normally good explained and Daniel Shiffman does a great job here.
+The best tutorial I found of git is the playlist [Git and Github for poets - The Coding Train](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV). Really, git is normally not clearly explained for beginners and Daniel Shiffman does a great job here.
 
 Also, there are a couple sites that worth checking:
 
@@ -50,6 +50,8 @@ ac8326d Polish mockito usage
 [This](https://cbea.ms/git-commit/) is a nice article explaining the why.
 
 [This](https://dev.to/timmybytes/keeping-git-commit-messages-consistent-with-a-custom-template-1jkm?signin=true) is a blog post explaining the how.
+
+If you want a reminder, you can check this [GitHub Gist](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#using-git-commit-message-templates-to-write-better-commit-messages) about setting up a `.gitmessage` file.
 
 # Show `git diff` with style
 
