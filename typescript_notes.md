@@ -38,4 +38,10 @@ interface IProps {
 function LikeButton({ handleLike, handleDislike }: IProps) {}
 ```
 
+# Do I use Interfaces or Types?
+
+It doesn't matter for the most part.
+
+If you want the details, check the source: [Harry Wolff - Interfaces vs Types](https://www.youtube.com/watch?v=crjIq7LEAYw)
+
 this post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/typescript_notes.md)
