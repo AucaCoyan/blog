@@ -13,6 +13,8 @@ Here are my typescript notes:
 
 The heart of typescript is in the typing objects. By doing so, you can prevent failures at build time because typescript will warn you if a type doesn't match the result.
 
+Do you want yo learn the basics? I can recommend [this live with Matt Pocock](https://www.youtube.com/watch?v=p6dO9u0M7MQ)
+
 ### Functions and objects
 
 The difference between this
