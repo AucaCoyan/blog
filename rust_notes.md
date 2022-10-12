@@ -35,6 +35,8 @@ There is a macro to sign work in progress in your code, without breaking the com
 todo!()
 ```
 
+source: [Let's get rusty - Prototyping in Rust with the todo!() macro](https://www.youtube.com/watch?v=KdPVCGfZ8sI)
+
 # How rustup manages versions and what is a toolchain
 
 As I read [this `rustup` book](https://rust-lang.github.io/rustup/index.html), it explains a couple of things about `rustup`
