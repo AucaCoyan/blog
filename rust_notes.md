@@ -19,13 +19,21 @@ The core features of rust are:
 As always, I will leave here my 2 cents in the crazy big book called the world wild web.
 
 - [No Boilerplate](https://www.youtube.com/playlist?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP) has an amazing playlist explaining concepts from the beginning and getting you excited to learn rust. You can't stop binge watching!
-- [This other post by Brandon Smith](https://www.brandons.me/blog/why-rust-strings-seem-hard) talks about strings in rust. For devs coming from every popular languages except C or C++, strings are easy to work with. By comparison, strings in rust are a tough cookie.
+- [This other post by Brandon Smith](https://www.brandons.me/blog/why-rust-strings-seem-hard) talks about `strings` in rust. For devs coming from every popular languages except C or C++, strings are easy to work with. By comparison, strings in rust are a tough cookie.
 
 ### How do _I_ learn rust?
 
-I saw the entire playlist of **No Boilerplate**, just get my feet warm and then with codewars, start to resolve simple katas an learn as I go.
+I saw the entire playlist of **No Boilerplate**, just get my feet warm and then with codewars, start to resolve simple katas and learn as I go.
 
 If you are curious about my advance. [Here](http://github.com/AucaCoyan/exp-rust) is the repository on github.
+
+### tips and tricks in rust
+
+There is a macro to sign work in progress in your code, without breaking the complier (like a `pass` equivalent from Python).
+
+```rust
+todo!()
+```
 
 # How rustup manages versions and what is a toolchain
 
