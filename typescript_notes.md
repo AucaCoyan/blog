@@ -9,13 +9,13 @@ ignorePost: false
 
 Here are my typescript notes:
 
-### Typescript
+# Typescript
 
 The heart of typescript is in the typing objects. By doing so, you can prevent failures at build time because typescript will warn you if a type doesn't match the result.
 
 Do you want yo learn the basics? I can recommend [this live with Matt Pocock](https://www.youtube.com/watch?v=p6dO9u0M7MQ)
 
-### Functions and objects
+## Functions and objects
 
 The difference between this
 
@@ -40,7 +40,19 @@ interface IProps {
 function LikeButton({ handleLike, handleDislike }: IProps) {}
 ```
 
-# Do I use Interfaces or Types?
+## Adding auto-completion to config files
+
+If you ever read this:
+
+```typescript
+/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+```
+
+That is a special comment saying: "this below should abide by the `preset-classic` types.
+
+You should `npm install --save-dev @docusaurus/preset-classic` to have the nice auto-completion 😉.
+
+## Do I use Interfaces or Types?
 
 It doesn't matter for the most part.
 
