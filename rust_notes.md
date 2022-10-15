@@ -100,6 +100,21 @@ cargo watch --quiet --clear --exec 'run --quiet --subproject hello'
 
 source: [Jeremy Chrone - Quiet hot reload with `cargo watch -q`](https://www.youtube.com/watch?v=xewU1E8fuQM)
 
+# take input from the user with `stdin`
+
+```rust
+use std::io::stdin;
+
+fn main() {
+    let mut name = String::new();
+    println!("Please enter your name >");
+    stdin().read_line(&mut name).expect("Failed input");
+    println!("Hello {}", name);
+}
+```
+
+I'm not sure how or why I need to use `read_line`, or `expect`. I will study those later.
+
 ---
 
 This post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/rust_notes.md)
