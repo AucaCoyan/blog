@@ -26,6 +26,12 @@ New-Item -ItemType Junction -Path "link" -Target "target"
 
 `link` and `target` behave the same.
 
+_note that if you want to replace `$PROFILE` you need to type the folder, not the ENV variable, for example:_
+
+```shell
+New-Item -ItemType HardLink -Path C:\Users\aucac\Documents\PowerShell\Microsoft.PowerShell_profile.ps1 -Target <Your personal folder>/PowerShell_profile.ps1
+```
+
 source: [this post](https://winaero.com/create-symbolic-link-windows-10-powershell/)
 
 ---
