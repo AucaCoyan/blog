@@ -34,6 +34,10 @@ New-Item -ItemType HardLink -Path C:\Users\aucac\Documents\PowerShell\Microsoft.
 
 source: [this post](https://winaero.com/create-symbolic-link-windows-10-powershell/)
 
+# How to append text from stdin to a file with PS?
+
+You `echo "pnpm-lock.yaml" | Out-File Output_file.txt -Append` with the append flag.
+
 ---
 
 This post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/powershell.md)
