@@ -132,10 +132,14 @@ you can do
 git checkout newFeature
 ```
 
-# rename a branch
+# branches
 
 ```sh
-git branch -m oldName newName
+git branch -m oldName newName               # rename a branch
+git branch -d goodbye_branch                # delete a branch locally
+git push origin --delete goodbye_branch     # delete a remote branch
+git branch                                  # list local branches
+git branch -a                               # list all branches (local and remote)
 ```
 
 # did you make changes in main?
