@@ -31,6 +31,8 @@ As for the CLI tools, if available, I prefer tools developed in Rust, because us
 
 - `pipx` for the global tools in python (`black`, `flake8`, `pipenv`, `mypy`, `pre-commit`, `all-repos`, etc).
 - [Github CLI](https://github.com/cli/cli) is amazing.
+- [Gitlab also has a CLI](https://gitlab.com/gitlab-org/cli).
+
 - I use [chocolatey](https://chocolatey.org/) package manager a lot.
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep) is your faster, better, stronger grep (and runs in Windows!)
 - [`exa`](https://github.com/ogham/exa) a modern replacement for `ls`. (Works on linux tho). (Works only on linux tho)
