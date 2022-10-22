@@ -8,6 +8,12 @@ ignorePost: false
 
 PowerShell is my preferred shell in windows. Even if its not as famous as `bash` or `zsh`, powershell is useful enough. So, here are my notes.
 
+# What is `...` syntax?
+
+You will probably need [this short notes](https://learnxinyminutes.com/docs/powershell/)
+
+And read [this other doc](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_operators?view=powershell-7.2) about operators (arithmetic, assignment, logical, `&`, `.`, etc.)
+
 # Create hard links
 
 Hard links are some of the most useful features I found in an OS. To create a single file hard link
