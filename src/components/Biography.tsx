@@ -4,7 +4,7 @@ import profile_pic from "../../../utils/profile_pic.jpg";
 
 const Biography = () => {
   return (
-    <section className="">
+    <section className="max-w-6xl mx-auto">
       <p className="px-6 pt-12 text-5xl text-center">
         Hi there! I&#39;m <b>Auca Coyan</b> {/*  TODO: animate*/}
         {/*         <span className=" animate-spin"> */}
