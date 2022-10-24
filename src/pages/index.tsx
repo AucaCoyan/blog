@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <>
       <Head>text</Head>
       <Header />
-      <main>
+      <main className="bg-black">
         <Biography />
         <Posts />
         <Contact />
