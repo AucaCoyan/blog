@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import profile_pic from "../../../utils/profile_pic.jpg";
+import profile_pic from "../../utils/profile_pic.jpg";
 
 const Biography = () => {
   return (

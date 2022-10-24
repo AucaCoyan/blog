@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import profile_pic from "../../../utils/profile_pic.jpg";
+import profile_pic from "../../utils/profile_pic.jpg";
 
 const Header = () => {
   return (
@@ -27,7 +27,7 @@ const Header = () => {
               <ul className="flex pl-10">
                 {/* TODO: add a .map, for loop or cycle  */}
                 <li className="px-2 py-2">
-                  <Link href="/">Blog</Link>
+                  <Link href="/blog">Blog</Link>
                 </li>
                 <li className="px-2 py-2">
                   <Link href="/">About</Link>
