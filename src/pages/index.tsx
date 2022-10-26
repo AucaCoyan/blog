@@ -31,11 +31,11 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <main className="max-w-6xl mx-auto bg-black">
+      <div className="max-w-6xl mx-auto ">
         <Biography />
         <Posts posts="" />
         <Contact />
-      </main>
+      </div>
     </>
   );
 };

@@ -6,9 +6,11 @@ import Footer from "../components/Footer";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
+      <div className="bg-[#fffffe] dark:bg-[#000] text-black dark:text-white ">
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </div>
     </>
   );
 }

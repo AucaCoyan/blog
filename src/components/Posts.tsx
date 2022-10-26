@@ -11,6 +11,14 @@ const Posts = (props: PostProps) => {
       <section className="max-w-6xl">
         <SectionTitle title="Posts" subTitle="My articles" />
       </section>
+      <p>Article 1</p>
+      <p>Article 1</p>
+      <p>Article 1</p>
+      <p>Article 1</p>
+      <p>Article 1</p>
+      <p>Article 1</p>
+      <p>Article 1</p>
+      <p>Article 1</p>
     </>
   );
 };
