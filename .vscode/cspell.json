@@ -6,6 +6,8 @@
   // words - list of words to be always considered correct
   "words": [
     "Andr",
+    "Auca",
+    "aucac",
     "aucacoyan",
     "Cgreen",
     "cheatsheet",
@@ -45,6 +47,7 @@
     "pipx",
     "Pocock",
     "POSIX",
+    "println",
     "pwebb",
     "pyenv",
     "pythonic",
@@ -57,6 +60,7 @@
     "tabletopsimulator",
     "Thackston",
     "ttslua",
+    "Unclickable",
     "vscode",
     "WakaTime",
     "walkthrough",
