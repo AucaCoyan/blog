@@ -68,9 +68,11 @@ TTS is tricky, you have to open TTS and "receive" the code from tabletop simulat
 
 # Things I tried (document more)
 
-- I tried to do an [XML schema](https://tabletopsimulator.nolt.io/879) but I have abandoned the task because XSD `no pueden tener articulos sin orden, repetibles, y que puedan o no aparecer, hay una de esas que tenés que dejar aparte, entonces no seria flexible`.
+- I tried to do an [XML schema](https://tabletopsimulator.nolt.io/879) but I have abandoned the task because XSD isn't flexible enough. I found that XML cant have optional repeatable elements, that may or may not appear (as buttons and text labels in a TTS XML).
+
   My investigation has come up to:
   TTS uses [XmlLayout](https://www.digital-legacy.co.za/XmlLayout/Documentation). (source: [this comment](https://steamcommunity.com/sharedfiles/filedetails/?id=1433695655#:~:text=Note%3A%20the%20original%20documentation%20for%20XmlLayout%2C%20the%20system%20used%20by%20TableTop%20Simulator%2C%20can%20be%20found%20here%3A%20http%3A//digital%2Dlegacy.co.za/XmlLayout/Documentation))
+
 - Installed v2.0 beta of TTS-lua-vscode https://github.com/rolandostar/tabletopsimulator-lua-vscode#manual-installation
 
   [it has its own docs!](https://tts-vscode.rolandostar.com/extension/apiUpdates)
