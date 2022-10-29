@@ -1,5 +1,6 @@
 ---
 title: You can bulk install software with the terminal
+socialImage: images/bulk_install.png
 domain: aucacoyan.hashnode.dev
 ignorePost: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: The Goal of this personal coding blog
+socialImage: images/goal.png
 domain: aucacoyan.hashnode.dev
 subtitle: Why am I doing this?
 tags: programming, developer, learning, programming blogs

@@ -1,5 +1,6 @@
 ---
 title: Lua Scripts for Tabletop Simulator
+socialImage: images/lua.png
 domain: aucacoyan.hashnode.dev
 slug: tts_lua
 ignorePost: false

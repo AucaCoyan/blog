@@ -1,5 +1,5 @@
 ---
-title: javascript
+title: Javascript
 socialImage: images/js.png
 domain: aucacoyan.hashnode.dev
 subtitle: the most hated language

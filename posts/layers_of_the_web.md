@@ -1,5 +1,6 @@
 ---
 title: The layers of the Web
+socialImage: images/layers_web.png
 domain: aucacoyan.hashnode.dev
 subtitle: HTML, CSS and JS are all you can touch and see
 tags: html, css, javascript

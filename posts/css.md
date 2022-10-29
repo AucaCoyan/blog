@@ -1,5 +1,5 @@
 ---
-title: css
+title: CSS
 socialImage: images/css.png
 domain: aucacoyan.hashnode.dev
 subtitle: my notes on css
