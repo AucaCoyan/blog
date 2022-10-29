@@ -1,5 +1,6 @@
 ---
-title: Rust notes
+title: Rust
+socialImage: images/rust.png
 domain: aucacoyan.hashnode.dev
 tags: rust
 slug: rust

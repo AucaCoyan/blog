@@ -1,5 +1,6 @@
 ---
-title: python
+title: Python
+socialImage: images/py.png
 domain: aucacoyan.hashnode.dev
 tags: python
 slug: python

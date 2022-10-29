@@ -1,5 +1,6 @@
 ---
-title: css
+title: CSS
+socialImage: images/css.png
 domain: aucacoyan.hashnode.dev
 subtitle: my notes on css
 tags: css, css3, design, web development

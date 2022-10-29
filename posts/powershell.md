@@ -1,5 +1,6 @@
 ---
 title: PowerShell
+socialImage: images/powershell.png
 domain: aucacoyan.hashnode.dev
 tags: powershell
 slug: powershell

@@ -1,5 +1,6 @@
 ---
 title: Typescript Notes
+socialImage: images/ts.png
 domain: aucacoyan.hashnode.dev
 subtitle: My typescript notes
 tags: typescript, javascript

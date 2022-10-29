@@ -1,5 +1,6 @@
 ---
 title: VS Code tips & tricks
+socialImage: images/vscode.png
 domain: aucacoyan.hashnode.dev
 tags: vscode
 slug: vscode

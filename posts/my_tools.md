@@ -1,5 +1,6 @@
 ---
 title: My tools
+socialImage: images/tools.png
 domain: aucacoyan.hashnode.dev
 subtitle: My favorite tools to develop everyday
 tags: python, vscode, tools

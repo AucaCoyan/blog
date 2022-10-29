@@ -1,5 +1,6 @@
 ---
 title: Readability counts!
+socialImage: images/readability.png
 domain: aucacoyan.hashnode.dev
 subtitle: Make your eyes actually read the code
 tags: General Programming, beginners, Developer, learning, Tutorial
@@ -65,7 +66,7 @@ const MyButtonComponent = () => {
 export default MyButtonComponent;
 ```
 
-This second is a more a nuisance than a clear sample, so give me a minute to explain: 
+This second is a more a nuisance than a clear sample, so give me a minute to explain:
 What you want to do here is essentially a _function_. On the second snippet, [it's an arrow function, not a basic function](https://stackoverflow.com/questions/39582318/export-const-arrow-function-or-basic-function), so it's actually not the same thing, but are you really going to use the `const MyButtonComponent` anywhere else? Do you see the usefulness of announcing functions as functions, and variables (as in _space in memory values_) as `const vars`?
 It makes the code clean, easy to understand, practical and way better to check with common sense.
 

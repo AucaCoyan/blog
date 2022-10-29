@@ -1,5 +1,6 @@
 ---
 title: git
+socialImage: images/git.png
 domain: aucacoyan.hashnode.dev
 subtitle: Distributed is the new centralized
 tags: git

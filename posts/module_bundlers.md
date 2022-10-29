@@ -1,5 +1,6 @@
 ---
-title: module_bundlers
+title: Module Bundlers
+socialImage: images/bundlers.png
 domain: aucacoyan.hashnode.dev
 subtitle: Module Bundlers
 tags: webpack, modules, javascript
