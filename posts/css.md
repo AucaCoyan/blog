@@ -124,7 +124,7 @@ and in the CSS
 }
 ```
 
-source: [Web Dev Simplyfied - Why Does Nearly Every Site Have This “Invisible Unclickable“ Link?](https://www.youtube.com/watch?v=VUR0I5mqq7I)
+source: [Web Dev Simplified - Why Does Nearly Every Site Have This “Invisible Unclickable“ Link?](https://www.youtube.com/watch?v=VUR0I5mqq7I)
 
 ---
 

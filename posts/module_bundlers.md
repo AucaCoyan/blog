@@ -23,6 +23,7 @@ AFAIK, these are the available module bundlers
 - [Vite](https://vitejs.dev/) is another alternative focused on bundling tiny JS files, instead of one big file. The browser can route to each file when needed, so the site theoretically loads faster.
 - [Parcel](https://parceljs.org/) is yet another alternative, with focus in zero config to run the most popular file types used in web development. As it written in Rust, it competes to be the fastest module bundler available.
 - [esbuild](https://esbuild.github.io/) is yet another module bundler built with go, which gives this package a tremendous jump in terms of speed.
+- [turbo](https://turbo.build/) is the new guy in the neighborhood, and is [_fast_](https://turbo.build/pack/docs/comparisons/turbopack-vs-vite)
 - [Snowpack](https://github.com/FredKSchott/snowpack#readme) is yet another popular framework, but it was deprecated in April 2022.
 
 Videos to watch:
