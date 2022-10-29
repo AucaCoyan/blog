@@ -10,14 +10,15 @@ export default function Blog({ posts }) {
         {/* Title */}
         <div className="mt-10 mb-5 text-5xl font-bold">Blog</div>
         {/* Post cycle */}
-        <div className="grid grid-cols-1 p-4 md:grid-cols-2 lg:grid-cols-3 md:p-0">
+        <div className="grid grid-cols-1 p-4 md:grid-cols-2 lg:grid-cols-3 md:p-0 auto-rows-max">
           {posts.map(({ slug, frontmatter }) => (
+            /*  Single post */
             <div
               key={slug}
-              className="flex flex-col m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg"
+              className="flex m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg flex-colself-stretch dark:bg-zinc-800 dark:border-none"
             >
               <Link href={`/blog/post/${slug}`}>
-                <div>
+                <div className="items-start">
                   <Image
                     width={650}
                     height={340}
@@ -26,7 +27,7 @@ export default function Blog({ posts }) {
                   />
 
                   {/* Post title */}
-                  <h1 className="p-4 my-6 text-xl font-bold text-center">
+                  <h1 className="p-4 my-4 text-2xl font-bold text-center">
                     {frontmatter.title}
                   </h1>
                 </div>
