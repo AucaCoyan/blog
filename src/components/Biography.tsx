@@ -23,7 +23,7 @@ const Biography = () => {
             I graduated as a Civil Engineer 👷‍♂️ but my passion has always been
             coding 👨‍💻. A couple of years ago I decided to make the change and
             now I work remote 💻 from home at{" "}
-            <span className="underline hover:text-blue-500">
+            <span className="underline hover:text-blue-500 dark:hover:text-orange-500">
               <Link href="https://www.farmacity.com/">Farmacity</Link>
             </span>
             <br /> <br />

@@ -15,7 +15,7 @@ export default function Blog({ posts }) {
             /*  Single post */
             <div
               key={slug}
-              className="flex m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg flex-colself-stretch dark:bg-zinc-800 dark:border-none"
+              className="flex m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg cursor-pointer flex-colself-stretch dark:bg-zinc-800 dark:border-none"
             >
               <Link href={`/blog/post/${slug}`}>
                 <div className="items-start">
