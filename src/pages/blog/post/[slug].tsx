@@ -4,7 +4,7 @@ import md from "markdown-it";
 
 export default function PostPage({ frontmatter, content }) {
   return (
-    <div className="mx-auto prose dark:prose-invert prose-code:text-emerald-800 dark:prose-code:text-gray-300 hover:prose-a:text-blue-500 dark:hover:prose-a:text-orange-500 prose-pre:bg-slate-100 dark:prose-pre:bg-slate-700">
+    <div className="max-w-3xl mx-auto prose dark:prose-invert prose-code:text-emerald-800 dark:prose-code:text-gray-300 hover:prose-a:text-blue-500 dark:hover:prose-a:text-orange-500 prose-pre:bg-slate-100 dark:prose-pre:bg-slate-700">
       <h1>{frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </div>
