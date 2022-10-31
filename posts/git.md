@@ -156,6 +156,24 @@ git checkout -b ifYouWantToCreateANewBranch
 git stash pop
 ```
 
+# do you want to roll back git changes?
+
+All right, easy. There is always a solution:
+
+If you want to throw away all the changes on the current status and return to HEAD, write:
+
+```sh
+git reset --hard HEAD
+```
+
+Or, if you want to change history and leave a note that you did it, the `revert` command will create a commit that reverts the changes of the commit passed to the terminal. You can use it to revert the last commit like this:
+
+```sh
+git revert <commit hash to revert>
+```
+
+source: [git revert commit - how to undo the last commit](https://www.freecodecamp.org/news/git-revert-commit-how-to-undo-the-last-commit/)
+
 # RepoZ is a pretty nice software
 
 ![](https://raw.githubusercontent.com/awaescher/RepoZ/master/_doc/QuickNavigation.gif)
