@@ -41,6 +41,14 @@ New-Item -ItemType HardLink -Path C:\Users\aucac\Documents\PowerShell\Microsoft.
 
 source: [this post](https://winaero.com/create-symbolic-link-windows-10-powershell/)
 
+# Can I refresh the shell without quitting the window?
+
+Run:
+
+```powershell
+refreshenv
+```
+
 # How to append text from stdin to a file with PS?
 
 You `echo "pnpm-lock.yaml" | Out-File Output_file.txt -Append` with the append flag.
