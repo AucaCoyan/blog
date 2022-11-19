@@ -53,6 +53,21 @@ refreshenv
 
 You `echo "pnpm-lock.yaml" | Out-File Output_file.txt -Append` with the append flag.
 
+# some errors I came across and solved
+
+```powershell
+Update-Help: Failed to update Help for the module(s) 'ConfigDefenderPerformance' with UI culture(s) {en-US} : One or more errors occurred. (Response status code does not indicate success: 404 (Not Found).).
+English-US help content is available and can be installed using: Update-Help -UICulture en-US.
+```
+
+This is because `Update-Help` updates both PowerShell 5 and 7 and looks for the modules in a case-sensitive way. I couldn't solve the error, but at least I found something more verbose to run:
+
+```powershell
+Update-Help -Verbose -Force -ErrorAction Continue
+```
+
+source: [stackoverflow](https://stackoverflow.com/questions/65980636/is-anybody-having-this-powershell-update-help-command-issue#comment127321723_65982117)
+
 ---
 
 This post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/powershell.md)
