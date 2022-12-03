@@ -41,9 +41,32 @@ New-Item -ItemType HardLink -Path C:\Users\aucac\Documents\PowerShell\Microsoft.
 
 source: [this post](https://winaero.com/create-symbolic-link-windows-10-powershell/)
 
+# Can I refresh the shell without quitting the window?
+
+Run:
+
+```powershell
+refreshenv
+```
+
 # How to append text from stdin to a file with PS?
 
 You `echo "pnpm-lock.yaml" | Out-File Output_file.txt -Append` with the append flag.
+
+# some errors I came across and solved
+
+```powershell
+Update-Help: Failed to update Help for the module(s) 'ConfigDefenderPerformance' with UI culture(s) {en-US} : One or more errors occurred. (Response status code does not indicate success: 404 (Not Found).).
+English-US help content is available and can be installed using: Update-Help -UICulture en-US.
+```
+
+This is because `Update-Help` updates both PowerShell 5 and 7 and looks for the modules in a case-sensitive way. I couldn't solve the error, but at least I found something more verbose to run:
+
+```powershell
+Update-Help -Verbose -Force -ErrorAction Continue
+```
+
+source: [stackoverflow](https://stackoverflow.com/questions/65980636/is-anybody-having-this-powershell-update-help-command-issue#comment127321723_65982117)
 
 ---
 
