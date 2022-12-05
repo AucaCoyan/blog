@@ -27,7 +27,7 @@ Also, there are a couple sites that worth checking:
 Instead of `git log` and scroll away the changes, use:
 
 ```sh
-git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+git log --graph --pretty=format:'%C(bold red)%an%C(reset) - %C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white) %C(bold cyan)%d%C(reset)'
 ```
 
 source: [this](https://blog.scottnonnenberg.com/better-git-configuration/#alias) blog post.
