@@ -22,6 +22,7 @@ As always, I will leave here my 2 cents in the crazy big book called the world w
 - [No Boilerplate](https://www.youtube.com/playlist?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP) has an amazing playlist explaining concepts from the beginning and getting you excited to learn rust. You can't stop binge watching!
 - [This other post by Brandon Smith](https://www.brandons.me/blog/why-rust-strings-seem-hard) talks about strings in rust. For devs coming from every popular languages except C or C++, `strings` are easy to work with. By comparison, strings in rust are a tough cookie.
 - [The book has a good summary on collections (vectors, lists, maps, etc)](https://doc.rust-lang.org/std/collections/index.html)
+- [This video from Let's get Rusty does an amazing job on Rust databases](https://www.youtube.com/watch?v=FW4oUXHly8c), please watch it before starting your project if you have the minimal need of a db.
 
 ### How do _I_ learn rust?
 
