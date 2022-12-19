@@ -66,7 +66,7 @@ source: [No Boilerplate - Build your lightsaber](https://youtu.be/ifaLk5v3W90?t=
 
 # Rust hot-reload is available with the crate `cargo-watch`
 
-Install cargo-watch with
+**You have to install it!** Install cargo-watch with
 
 ```sh
 cargo install cargo-watch
@@ -101,6 +101,16 @@ cargo watch --quiet --clear --exec 'run --quiet --subproject hello'
 ```
 
 source: [Jeremy Chrone - Quiet hot reload with `cargo watch -q`](https://www.youtube.com/watch?v=xewU1E8fuQM)
+
+# problems I came across at some point
+
+If you see this problem while compiling a new library on the terminal:
+
+```
+error occurred: Failed to find tool. Is `gcc.exe` installed? (see https://github.com/alexcrichton/cc-rs#compile-time-requirements for help)
+```
+
+The best guide out there is a StackOverflow answer [here](https://stackoverflow.com/a/72646362/8552476)
 
 # take input from the user with `stdin`
 
