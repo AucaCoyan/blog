@@ -53,6 +53,21 @@ refreshenv
 
 You `echo "pnpm-lock.yaml" | Out-File Output_file.txt -Append` with the append flag.
 
+# You can list...
+
+The verbs with `Get-Verb`
+
+The aliases with `Get-Alias`
+
+or get help with
+
+```powershell
+Get-Help
+help
+# or
+man
+```
+
 # some errors I came across and solved
 
 ```powershell
