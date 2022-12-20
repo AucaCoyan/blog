@@ -23,6 +23,11 @@ As always, I will leave here my 2 cents in the crazy big book called the world w
 - [This other post by Brandon Smith](https://www.brandons.me/blog/why-rust-strings-seem-hard) talks about strings in rust. For devs coming from every popular languages except C or C++, `strings` are easy to work with. By comparison, strings in rust are a tough cookie.
 - [The book has a good summary on collections (vectors, lists, maps, etc)](https://doc.rust-lang.org/std/collections/index.html)
 - [This video from Let's get Rusty does an amazing job on Rust databases](https://www.youtube.com/watch?v=FW4oUXHly8c), please watch it before starting your project if you have the minimal need of a db.
+- A good alternative to the Rust Book is the [Learning Rust page](https://learning-rust.github.io/docs/).
+
+### _really_ good cheatsheets
+
+- [The best cheatsheet](https://cheats.rs/) I found on the web.
 
 ### How do _I_ learn rust?
 
@@ -39,6 +44,17 @@ todo!()
 ```
 
 source: [Let's get rusty - Prototyping in Rust with the todo!() macro](https://www.youtube.com/watch?v=KdPVCGfZ8sI)
+
+# `cargo` section
+
+Cargo is the package manager and a lot more in rust. Here is a tldr on how to use it
+
+```sh
+cargo build           # to build the project
+cargo run             # to run the project. It builds it if it's not built yet
+cargo check           # is a great form to call the compiler to check your code
+cargo build --release # to build the project with a lot of optimizations
+```
 
 # How rustup manages versions and what is a toolchain
 
