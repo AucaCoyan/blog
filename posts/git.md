@@ -174,6 +174,10 @@ git revert <commit hash to revert>
 
 source: [git revert commit - how to undo the last commit](https://www.freecodecamp.org/news/git-revert-commit-how-to-undo-the-last-commit/)
 
+# you can convert markdown task lists into issues in GitHub
+
+see [source](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists#creating-task-lists)
+
 # RepoZ is a pretty nice software
 
 ![](https://raw.githubusercontent.com/awaescher/RepoZ/master/_doc/QuickNavigation.gif)
