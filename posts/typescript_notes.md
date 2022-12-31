@@ -63,4 +63,10 @@ If you want the details, check the source: [Harry Wolff - Interfaces vs Types](h
 
 I really like `isort` for python, so I found an equivalent with [`prettier-plugin-sorted`](https://github.com/ifiokjr/prettier-plugin-sorted)
 
+# Common errors
+
+## `Node-gyp` error
+
+solved in [StackOverflow](https://stackoverflow.com/a/59882818/8552476)
+
 this post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/typescript_notes.md)
