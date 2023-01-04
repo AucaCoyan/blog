@@ -16,6 +16,10 @@ The heart of typescript is in the typing objects. By doing so, you can prevent f
 
 Do you want yo learn the basics? I can recommend [this live with Matt Pocock](https://www.youtube.com/watch?v=p6dO9u0M7MQ)
 
+## I prefer normal functions over arrow functions most of the time.
+
+[This](https://www.youtube.com/watch?v=5iGGvJn8K1U) video explains it clearly.
+
 ## Functions and objects
 
 The difference between this
@@ -55,7 +59,7 @@ You should `npm install --save-dev @docusaurus/preset-classic` to have the nice 
 
 ## Do I use Interfaces or Types?
 
-It doesn't matter for the most part.
+It doesn't matter for the most part. For the record, I use interfaces.
 
 If you want the details, check the source: [Harry Wolff - Interfaces vs Types](https://www.youtube.com/watch?v=crjIq7LEAYw)
 
