@@ -24,6 +24,7 @@ As always, I will leave here my 2 cents in the crazy big book called the world w
 - [The book has a good summary on collections (vectors, lists, maps, etc)](https://doc.rust-lang.org/std/collections/index.html)
 - [This video from Let's get Rusty does an amazing job on Rust databases](https://www.youtube.com/watch?v=FW4oUXHly8c), please watch it before starting your project if you have the minimal need of a db.
 - A good alternative to the Rust Book is the [Learning Rust page](https://learning-rust.github.io/docs/).
+- If you want to start with tokio (and you should, because it's used *everywhere*) you can peek at [this recommendations](https://youtu.be/ycMiMDHopNc?t=4993)
 
 ### _really_ good cheatsheets
 
@@ -100,6 +101,34 @@ to have simply hot reload, and if you want the quieter version:
 ```sh
 cargo watch --quiet --clear --exec 'run --quiet'
 ```
+
+# To check your dependencies, you can use `cargo-outdated`
+
+If you see the readme of [`cargo-outdated`](https://github.com/kbknapp/cargo-outdated) you can see this when you run
+```
+cargo outdated
+
+Name             Project  Compat  Latest   Kind         Platform
+----             -------  ------  ------   ----         --------
+clap             2.20.0   2.20.5  2.26.0   Normal       ---
+clap->bitflags   0.7.0    ---     0.9.1    Normal       ---
+clap->libc       0.2.18   0.2.29  Removed  Normal       ---
+clap->term_size  0.2.1    0.2.3   0.3.0    Normal       ---
+clap->vec_map    0.6.0    ---     0.8.0    Normal       ---
+num_cpus         1.6.0    ---     1.6.2    Development  ---
+num_cpus->libc   0.2.18   0.2.29  0.2.29   Normal       ---
+pkg-config       0.3.8    0.3.9   0.3.9    Build        ---
+term             0.4.5    ---     0.4.6    Normal       ---
+term_size->libc  0.2.18   0.2.29  0.2.29   Normal       cfg(not(target_os = "windows"))
+```
+
+Which is nice to have.
+
+# do you want to sync the docstring with the README.md of the project?
+
+Try [cargo-readme](https://github.com/livioribeiro/cargo-readme)
+
+Look it working [here](https://youtu.be/ycMiMDHopNc?t=3899)
 
 ##### bonus tip!
 
