@@ -67,6 +67,10 @@ If you want the details, check the source: [Harry Wolff - Interfaces vs Types](h
 
 I really like `isort` for python, so I found an equivalent with [`prettier-plugin-sorted`](https://github.com/ifiokjr/prettier-plugin-sorted)
 
+## what the heck is `Pick`, `Omit`, `Exclude`, `Extract` and `Awaited`? (and more)
+
+These are "pick-able" types. See [this](https://www.youtube.com/watch?v=EU0TB_8KHpY) video.
+
 # Common errors
 
 ## `Node-gyp` error
