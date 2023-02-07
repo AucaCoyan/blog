@@ -5,14 +5,14 @@ import profile_pic from "../../utils/profile_pic.jpg";
 
 const Biography = () => {
   return (
-    <section className="max-w-6xl mx-auto">
-      <p className="px-6 pt-12 text-5xl text-center">
+    <section className="mx-auto max-w-6xl">
+      <p className="px-6 pt-12 text-center text-5xl">
         Hi there! I&#39;m <b>Auca Coyan</b> {/*  TODO: animate*/}
         {/*         <span className=" animate-spin"> */}
         👋
         {/*           </span> */}
       </p>
-      <div className="flex items-center justify-center pt-24 text-center gap-x-24">
+      <div className="flex items-center justify-center gap-x-24 pt-24 text-center">
         <div className="px-6 pt-2 text-2xl ">
           <p>
             Nice to meet you! I&#39;m a <b>fullstack engineer</b> from Buenos
@@ -34,10 +34,8 @@ const Biography = () => {
         </div>
         <Image
           src={profile_pic}
-          height={250}
-          width={250}
           alt="profile pic"
-          className="mt-10 rounded-full lg:ml-16 md:mt-1 md:m-auto md:mb-0"
+          className="mt-10 rounded-full md:m-auto md:mt-1 md:mb-0 lg:ml-16"
         />
       </div>
     </section>
