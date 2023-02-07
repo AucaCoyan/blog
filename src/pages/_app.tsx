@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {/* General styles for all the app */}
-      <div className="bg-[#fffffe] dark:bg-[#000] text-black dark:text-white">
+      <div className="bg-[#fffffe] text-black dark:bg-[#000] dark:text-white">
         <Layout>
           <Component {...pageProps} />
         </Layout>

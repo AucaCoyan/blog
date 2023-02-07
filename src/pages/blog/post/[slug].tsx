@@ -1,12 +1,26 @@
 import fs from "fs";
 import matter from "gray-matter";
-import md from "markdown-it";
+import MarkdownIt from "markdown-it";
+// import prism from "markdown-it-prism";
+import hljs from "highlight.js";
+
+var md = require("markdown-it")({
+  highlight: function (str, lang) {
+    if (lang && hljs.getLanguage(lang)) {
+      try {
+        return hljs.highlight(str, { language: lang }).value;
+      } catch (__) {}
+    }
+
+    return ""; // use external default escaping
+  },
+});
 
 export default function PostPage({ frontmatter, content }) {
   return (
-    <div className="max-w-3xl mx-auto prose dark:prose-invert prose-code:text-emerald-800 dark:prose-code:text-gray-300 hover:prose-a:text-blue-500 dark:hover:prose-a:text-orange-500 prose-pre:bg-slate-100 dark:prose-pre:bg-slate-700">
+    <div className="prose mx-auto max-w-3xl hover:prose-a:text-blue-500 prose-code:text-emerald-800 prose-pre:bg-slate-100 dark:prose-invert dark:hover:prose-a:text-orange-500 dark:prose-code:text-gray-300 dark:prose-pre:bg-slate-700">
       <h1>{frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      <div dangerouslySetInnerHTML={{ __html: md.render(content) }} />
     </div>
   );
 }
