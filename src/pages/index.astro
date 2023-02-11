@@ -1,0 +1,26 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Biography from "../components/Biography.astro";
+import Posts from "../components/Posts.astro";
+import Contact from "../components/Contact.astro";
+import global_styles from "../components/globalstyles";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class={global_styles}
+    ><Header title={SITE_TITLE} />
+    <main class="max-w-6xl mx-auto">
+      <Biography />
+      <Posts />
+      <Contact />
+    </main>
+    <Footer />
+  </body>
+</html>

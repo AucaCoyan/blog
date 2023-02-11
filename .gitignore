@@ -36,3 +36,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 pnpm-lock.yaml
+
+# astro
+.astro/
+
+# guide posts
+src/content/blog/markdown-style-guide.md
+src/content/blog/using-mdx.mdx
+public/placeholder-hero.jpg
+.vscode/launch.json

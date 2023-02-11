@@ -1,0 +1,53 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+import global_styles from "../../components/globalstyles";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class={global_styles}>
+    <Header />
+    <main class="max-w-6xl mx-auto">
+      {/* Title */}
+      <div class="mt-10 mb-5 text-5xl font-bold">Blog</div>
+      {/* Post cycle */}
+      <div
+        class="grid grid-cols-1 p-4 md:grid-cols-2 lg:grid-cols-3 md:p-0 auto-rows-max"
+      >
+        {
+          posts.map((post) => (
+            /*  Single post */ <div class="flex m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg cursor-pointer flex-colself-stretch dark:bg-zinc-800 dark:border-none">
+              <a href={`/blog/${post.slug}/`}>
+                <div class="items-start">
+                  <img
+                    width={650}
+                    height={340}
+                    alt={post.data.title}
+                    src={`${post.data.heroImage}`}
+                  />
+                  {/* Post title */}
+                  <h1 class="p-4 my-4 text-2xl font-bold text-center">
+                    {post.data.title}
+                  </h1>
+                </div>
+              </a>
+            </div>
+          ))
+        }
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
