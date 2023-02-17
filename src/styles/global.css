@@ -9,3 +9,10 @@
   white-space: pre-wrap;
   word-break: break-word;
 }
+
+/*
+* {
+  box-sizing: border-box;
+  outline: 1px solid limegreen !important;
+}
+*/

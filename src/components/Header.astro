@@ -1,5 +1,5 @@
 ---
-import profile_pic from "../../public/profile_pic.jpg";
+import profile_pic from "../../profile_pic.jpg";
 import ThemeIcon from "./ThemeIcon.astro";
 ---
 
@@ -9,33 +9,33 @@ import ThemeIcon from "./ThemeIcon.astro";
     class="sticky top-0 z-10 py-3 mx-auto backdrop-saturate-180 backdrop-blur-lg shadow-semiXL bg-[121212bf]"
   >
     <div class="flex items-center justify-between px-6 m-auto">
-        <a href="/">
-          {/* Logo */}
-          <div class="flex items-center justify-between cursor-pointer">
-            <img
-              src={profile_pic}
-              height={36}
-              width={36}
-              alt="profile pic"
-              class="rounded-full"
-            />
-            <p class="ml-4 text-xl">Auca Coyan</p>
-          </div>
-        </a>
+      <a href="/">
+        {/* Logo */}
+        <div class="flex items-center justify-between cursor-pointer">
+          <img
+            src={profile_pic}
+            height={36}
+            width={36}
+            alt="profile pic"
+            class="rounded-full"
+          />
+          <p class="ml-4 text-xl">Auca Coyan</p>
+        </div>
+      </a>
 
-        {/* Left Links */}
-        <ul class="flex pl-10">
-          {/* TODO: add a .map, for loop or cycle  */}
-          <li class="px-2 py-2">
-            <a href="/blog">Blog</a>
-          </li>
-          <li class="px-2 py-2">
-            <a href="/">About</a>
-          </li>
-          <li class="px-1 py-2">
-<!--             <ThemeIcon /> -->
-          </li>
-        </ul>
+      {/* Left Links */}
+      <ul class="flex pl-10">
+        {/* TODO: add a .map, for loop or cycle  */}
+        <li class="px-2 py-2">
+          <a href="/blog">Blog</a>
+        </li>
+        <li class="px-2 py-2">
+          <a href="/">About</a>
+        </li>
+        <li class="px-1 py-2">
+          <!--             <ThemeIcon /> -->
+        </li>
+      </ul>
     </div>
   </nav>
 </header>

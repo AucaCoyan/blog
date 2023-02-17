@@ -7,17 +7,19 @@ const today = new Date();
   <div class="py-10"></div>
   <!-- Flex container -->
   <div
-    class="bottom-0 flex border-t-2 border-gray-[#121212] items-center py-10 px-6 justify-between"
+    class="bottom-0 flex border-t-2 border-gray-[#121212] flex-col md:flex-row items-center py-10 px-6 justify-between"
   >
-    <!-- Left items -->
-    <div class="flex items-c cursor-pointer ml-24 font-semibold">
+    <!-- Left or Top items -->
+    <div
+      class="flex items-c cursor-pointer md:ml-24 mb-4 md:mb-0 font-semibold"
+    >
       &copy;
       {today.getFullYear()}
       Auca Coyan®. All rights reserved.
     </div>
-    {/* Right items */}
+    {/* Right or Bottom items */}
     <div class="flex justify-around px-10 pr-12">
-      <ul class="flex pl-10">
+      <ul class="flex md:pl-10">
         <li class="px-2">
           <a href="https://github.com/AucaCoyan">Github</a>
         </li>
