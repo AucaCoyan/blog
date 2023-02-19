@@ -18,12 +18,22 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 
   <body class={global_styles}>
     <Header />
+    <!-- image -->
+    {
+      heroImage && (
+        <img
+          width={720}
+          height={360}
+          src={heroImage}
+          alt=""
+          class="py-5 mx-auto"
+        />
+      )
+    }
     <main
-      class="prose mx-auto max-w-3xl hover:prose-a:text-blue-500 prose-pre:bg-slate-100 dark:prose-invert dark:hover:prose-a:text-orange-500 dark:prose-pre:bg-slate-700 prose-lg prose-code:text-orange-400 prose-code:.code-word-wrap"
+      class="prose mx-auto max-w-3xl hover:prose-a:text-blue-500 prose-pre:bg-slate-100 dark:prose-invert dark:hover:prose-a:text-orange-500 dark:prose-pre:bg-slate-700 sm:prose-lg prose-code:text-orange-400 prose-code:.code-word-wrap px-8"
     >
       <article>
-        <!-- image -->
-        {heroImage && <img width={720} height={360} src={heroImage} alt="" />}
         <!-- title -->
         <h1 class="title">{title}</h1>
         <!-- date... -->

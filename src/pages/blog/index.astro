@@ -21,14 +21,14 @@ const posts = (await getCollection("blog")).sort(
     <Header />
     <main class="max-w-6xl mx-auto">
       {/* Title */}
-      <div class="mt-10 mb-5 text-5xl font-bold">Blog</div>
+      <div class="mt-10 mb-5 text-5xl font-bold text-center">Blog</div>
       {/* Post cycle */}
       <div
-        class="grid grid-cols-1 p-4 md:grid-cols-2 lg:grid-cols-3 md:p-0 auto-rows-max"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:p-0 auto-rows-max"
       >
         {
           posts.map((post) => (
-            /*  Single post */ <div class="flex m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg cursor-pointer flex-colself-stretch dark:bg-zinc-800 dark:border-none">
+            /*  Single post */ <div class="flex m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 flex-colself-stretch dark:bg-zinc-800 dark:border-none">
               <a href={`/blog/${post.slug}/`}>
                 <div class="items-start">
                   <img
