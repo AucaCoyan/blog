@@ -10,12 +10,26 @@ ignorePost: false
 
 Python is my most studied programming language, so I new a few things here and there. Here are my notes:
 
+# Learning resources
+
+Through my learning path, I came across with multiple resources, both good and bad. This list are my recommendations, for there are quite a few places to learn python out there in the wild.
+
+### YouTube channels
+
+Youtube is an excellent platform, but not without its downsides: It's so full of courses.
+
+- [mCoding](https://www.youtube.com/@mCoding) is an excellent resource with Python and C++. James Murphy offers consulting, contracting and training of his languages with great examples and really good practices.
+- [ArjanCodes](https://www.youtube.com/@ArjanCodes) is an empathic well-versed programmer. It also has a Discord which is full of interesting threads and people.
+- [Anthony Sottile](https://www.youtube.com/@anthonywritescode) is a respected coder in the Python ecosystem. He streams regularly in Twitch and VODs are [uploaded in YouTube](https://www.youtube.com/channel/UChPxcypesw8L-iqltstSI4Q)
+
+### YouTube videos
+
+- [This specific video](https://www.youtube.com/watch?v=cKPlPJyQrt4) by James Powell "So you want to be a Python expert" is insightful, even if you don't understand most of the features that are mentioned in the video. Watch it for the plot. The other videos by James Powell aren't very thoughtful.
+
 # Interesting things
 
 - [PrettyErrors](https://github.com/onelivesleft/PrettyErrors) turns Exceptions into a beautiful poem.
 - [bpython](https://www.bpython-interpreter.org/) is a colorful REPL for python. Unfortunately only works for POSIX systems
-
-This post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/python.md)
 
 # tips and tricks
 
@@ -27,3 +41,11 @@ print(f'{str_value = }')
 # prints the var and its value
 # str_value = 'the contents of my variable'
 ```
+
+### you can run interactively your python program
+
+with: `python -i main.py`
+
+source: [Python Quick Tip: Interactive Mode](https://www.youtube.com/watch?v=KjHKbmjFZLk)
+
+This post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/python.md)

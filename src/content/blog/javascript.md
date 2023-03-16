@@ -13,7 +13,7 @@ Javascript is certainly the most hated programming language, but nonetheless it'
 
 # Javascript section
 
-Empty for the time being
+- [you can send other text to clipboard when you copy a webpage (in Spanish)](https://www.youtube.com/shorts/Ebyke-7bo2Y)
 
 # NodeJS / `npm` section
 

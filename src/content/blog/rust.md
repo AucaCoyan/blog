@@ -32,7 +32,7 @@ As always, I will leave here my 2 cents in the crazy big book called the world w
 
 ### How do _I_ learn rust?
 
-I saw the entire playlist of **No Boilerplate**, just get my feet warm and then with codewars, start to resolve simple katas and learn as I go.
+I saw [the entire playlist of **No Boilerplate**](https://www.youtube.com/playlist?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP), just get my feet warm and then with codewars, start to resolve simple katas and learn as I go.
 
 If you are curious about my advance. [Here](http://github.com/AucaCoyan/exp-rust) is the repository on github.
 
@@ -102,6 +102,24 @@ to have simply hot reload, and if you want the quieter version:
 cargo watch --quiet --clear --exec 'run --quiet'
 ```
 
+##### bonus tip!
+
+If you are currently in a `parent` folder with many sub projects, you can run a folder like this:
+
+```
+parent/
+|-sub_project/
+| |-hello.rs
+|-sub_project2/
+  |-other_file.rs
+```
+
+```sh
+cargo watch --quiet --clear --exec 'run --quiet --subproject hello'
+```
+
+source: [Jeremy Chrone - Quiet hot reload with `cargo watch -q`](https://www.youtube.com/watch?v=xewU1E8fuQM)
+
 # To check your dependencies, you can use `cargo-outdated`
 
 If you see the readme of [`cargo-outdated`](https://github.com/kbknapp/cargo-outdated) you can see this when you run
@@ -131,24 +149,6 @@ Try [cargo-readme](https://github.com/livioribeiro/cargo-readme)
 
 Look it working [here](https://youtu.be/ycMiMDHopNc?t=3899)
 
-##### bonus tip!
-
-If you are currently in a `parent` folder with many sub projects, you can run a folder like this:
-
-```
-parent/
-|-sub_project/
-| |-hello.rs
-|-sub_project2/
-  |-other_file.rs
-```
-
-```sh
-cargo watch --quiet --clear --exec 'run --quiet --subproject hello'
-```
-
-source: [Jeremy Chrone - Quiet hot reload with `cargo watch -q`](https://www.youtube.com/watch?v=xewU1E8fuQM)
-
 # problems I came across at some point
 
 If you see this problem while compiling a new library on the terminal:
@@ -159,20 +159,10 @@ error occurred: Failed to find tool. Is `gcc.exe` installed? (see https://github
 
 The best guide out there is a StackOverflow answer [here](https://stackoverflow.com/a/72646362/8552476)
 
-# take input from the user with `stdin`
+# some language features
 
-```rust
-use std::io::stdin;
-
-fn main() {
-    let mut name = String::new();
-    println!("Please enter your name >");
-    stdin().read_line(&mut name).expect("Failed input");
-    println!("Hello {}", name);
-}
-```
-
-I'm not sure how or why I need to use `read_line`, or `expect`. I will study those later.
+- there are something similar to PEPs in python, but in Rust. They are called [RFCs - requests for comments](https://github.com/rust-lang/rfcs)
+- it has [its own forum](https://internals.rust-lang.org/) where many brilliant discussions are formed
 
 ---
 

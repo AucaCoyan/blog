@@ -11,6 +11,13 @@ ignorePost: false
 
 VS code is one of my favorites editors. With the years I gather a few tips I can pass on to you:
 
+# Did you know?
+
+- that VSCode can [show which keys are pressed](https://www.youtube.com/shorts/iHLy8Lstopg) in real time?
+- navigate your code better with [the outline view](https://www.youtube.com/shorts/_5EviVsd0Xo)
+- you can [rename the terminal name and change it's color](https://youtube.com/shorts/9QC2SDkWyvI)
+- track your [items in your code with the extension TODO Tree](https://www.youtube.com/shorts/_vNt04DimtU)
+
 # Tasks are great
 
 Allison Thackston has a great article about [tasks in VSCode](https://www.allisonthackston.com/articles/vscode-tasks.html)
