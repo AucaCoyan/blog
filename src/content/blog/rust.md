@@ -46,6 +46,13 @@ todo!()
 
 source: [Let's get rusty - Prototyping in Rust with the todo!() macro](https://www.youtube.com/watch?v=KdPVCGfZ8sI)
 
+### Inline hints
+
+You can enable and disable suggestions and inline hints in VS Code.
+
+source:[Toggle your Rust Analyzer Inlay Hints](https://www.youtube.com/watch?v=wBTAMLp-gnc)
+
+
 # `cargo` section
 
 Cargo is the package manager and a lot more in rust. Here is a tldr on how to use it
