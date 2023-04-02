@@ -24,12 +24,13 @@ Youtube is an excellent platform, but not without its downsides: It's so full of
 
 ### YouTube videos
 
-- [This specific video](https://www.youtube.com/watch?v=cKPlPJyQrt4) by James Powell "So you want to be a Python expert" is insightful, even if you don't understand most of the features that are mentioned in the video. Watch it for the plot. The other videos by James Powell aren't very thoughtful.
+- [This specific video](https://www.youtube.com/watch?v=cKPlPJyQrt4) by James Powell "So you want to be a Python expert" is insightful, even if you don't understand most of the features that are mentioned in the video. Watch it for the plot. The other videos by James Powell aren't very thoughtful but they can help you in a thing or two.
 
 # Interesting things
 
 - [PrettyErrors](https://github.com/onelivesleft/PrettyErrors) turns Exceptions into a beautiful poem.
-- [bpython](https://www.bpython-interpreter.org/) is a colorful REPL for python. Unfortunately only works for POSIX systems
+- [bpython](https://www.bpython-interpreter.org/) is a colorful REPL for python. Unfortunately only works for POSIX systems.
+- [Raw SQL, SQL Query Builder, or ORM?](https://www.youtube.com/watch?v=x1fCJ7sUXCM) Arjan gives a comprehensive view of all the options available.
 
 # tips and tricks
 
