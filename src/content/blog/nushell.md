@@ -33,3 +33,10 @@ commandline (history | each { |it| $it.command } | uniq | reverse | str join  (c
 
 source: [`nushell` discord](https://discord.com/channels/601130461678272522/615253963645911060/1093077154473975868)
 
+## if you have a json output
+
+try to pipe it with `| from json`
+```
+scoop export | from json
+```
+
