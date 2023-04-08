@@ -22,3 +22,14 @@ open scoop-list.json | get 'apps'
 ```
 
 source: [documentation](https://www.nushell.sh/book/loading_data.html#opening-files)
+
+## get a fancy history commands menu with `fzf`
+
+run:
+
+```
+commandline (history | each { |it| $it.command } | uniq | reverse | str join  (char nl) | fzf --tiebreak=chunk --layout=reverse  --multi --preview='echo {..}' --preview-window='bottom:3:wrap' --height=70% -q (commandline) | decode utf-8 | str trim)
+```
+
+source: [`nushell` discord](https://discord.com/channels/601130461678272522/615253963645911060/1093077154473975868)
+
