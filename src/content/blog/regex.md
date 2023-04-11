@@ -11,6 +11,7 @@ Regex (regular expressions) is such an amazing technology. It's the most popular
 ### Links
 
 - As a learning resource, [RegexOne](https://regexone.com/) guides you with excercises and is a great pratise tool.
+- [regex tutorials](http://regextutorials.com/index.html) has a tutorial and nice excercises too.
 - [regexr.com](https://regexr.com/) is my goto website for testing expressions. [Regex101](https://regex101.com/) is  a close second website if you prefer something different.
 
 ### How to:
