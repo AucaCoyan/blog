@@ -157,6 +157,8 @@ git checkout -b ifYouWantToCreateANewBranch
 git stash pop
 ```
 
+If you don't want the stash anymore, you can `git stash drop` to delete the topmost stash.
+
 # do you want to roll back git changes?
 
 All right, easy. There is always a solution:
