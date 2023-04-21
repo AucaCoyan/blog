@@ -113,6 +113,25 @@ git branch -d localBranchName
 git push origin --delete remoteBranchName
 ```
 
+# instead you want to delete a file which is currently tracked?
+
+Of course you can do
+```sh
+rm .\this-file.txt
+# and then
+git add .\this-file.txt
+```
+
+but
+
+```sh
+git rm .\this-file.txt --cached
+```
+does the same.
+The `--cached` part does delete the file from the index (adding it to staging area of the next commit), but doesn't delete the file on your computer.
+
+
+
 # you can see the differences with a specific commit
 
 ```sh
