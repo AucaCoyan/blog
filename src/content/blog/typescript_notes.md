@@ -1,5 +1,5 @@
 ---
-title: "Typescript Notes"
+title: "Typescript"
 heroImage: "/images/ts.png"
 domain: aucacoyan.hashnode.dev
 description: "My typescript notes"
@@ -16,6 +16,14 @@ Here are my typescript notes:
 The heart of typescript is in the typing objects. By doing so, you can prevent failures at build time because typescript will warn you if a type doesn't match the result.
 
 Do you want yo learn the basics? I can recommend [this live with Matt Pocock](https://www.youtube.com/watch?v=p6dO9u0M7MQ)
+
+## What is `Zod`
+
+It is a superset of of typescript that enable you to specify types of typescript with a schema and some additional configurations.[Learn it here with WebDevSimplified](https://www.youtube.com/watch?v=9UVPk0Ulm6U)
+
+## What is `tRPC`
+It is a form to send and recieve types through an API. [Here](https://www.youtube.com/watch?v=lxnPMB0Jc7E) is explained by WebDevSimplified
+
 
 ## I prefer normal functions over arrow functions most of the time.
 
