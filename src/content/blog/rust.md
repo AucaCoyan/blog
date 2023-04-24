@@ -25,6 +25,7 @@ As always, I will leave here my 2 cents in the crazy big book called the world w
 - [This video from Let's get Rusty does an amazing job on Rust databases](https://www.youtube.com/watch?v=FW4oUXHly8c), please watch it before starting your project if you have the minimal need of a db.
 - A good alternative to the Rust Book is the [Learning Rust page](https://learning-rust.github.io/docs/).
 - If you want to start with tokio (and you should, because it's used _everywhere_) you can peek at [this recommendations](https://youtu.be/ycMiMDHopNc?t=4993)
+- For idioms, design patterns, and anti-patterns it's good [to check this book](https://rust-unofficial.github.io/patterns/intro.html) by the `rust-unofficial` organization.
 
 ### _really_ good cheatsheets
 
