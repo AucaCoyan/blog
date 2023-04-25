@@ -7,6 +7,9 @@ heroImage: "/images/sql.png"
 
 SQL (pronounced 'see-qwel') is the currently most famous database language. As I need to learn it deeply in my current job, here are my side notes:
 
+## Learning
+- If you ever need to do a slighty complex query, I recommend you to watch [this video](https://www.youtube.com/watch?v=Vy8NRI24aXg) first. Doug does a great job at going step by step to design a complex query.
+
 ## SQL flavours
 
 Because SQL is a really (and I mean REALLY) old language, it has developed different flavours. The most popular are:
