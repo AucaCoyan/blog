@@ -19,7 +19,7 @@ Here below you will find what you will read here:
 
 ## first and foremost, to have my notes uploaded to the web.
 
-I take notes on the courses, stackoverflow searches, tips I see in TikTok, shorts of YouTube, and simple good ideas I find in general.
+I take notes on the courses, StackOverflow searches, tips I see in TikTok, shorts of YouTube, and simple good ideas I find in general.
 
 ## next in line, to express my beliefs about how we can all produce content in a better way (especially welcoming for newcomers!)
 

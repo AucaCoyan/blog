@@ -82,7 +82,7 @@ This is because `Update-Help` updates both PowerShell 5 and 7 and looks for the 
 Update-Help -Verbose -Force -ErrorAction Continue
 ```
 
-source: [stackoverflow](https://stackoverflow.com/questions/65980636/is-anybody-having-this-powershell-update-help-command-issue#comment127321723_65982117)
+source: [StackOverflow](https://stackoverflow.com/questions/65980636/is-anybody-having-this-powershell-update-help-command-issue#comment127321723_65982117)
 
 ---
 

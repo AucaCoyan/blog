@@ -27,7 +27,7 @@ npm install @angular/router
 
 They are called 'scoped packages'. It's a fancy way to teams and enterprises to have namespaces so they control whats after the `@name/...` thing
 
-source: [stackoverflow](https://stackoverflow.com/a/36667439/8552476)
+source: [StackOverflow](https://stackoverflow.com/a/36667439/8552476)
 
 ---
 

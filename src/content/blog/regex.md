@@ -35,7 +35,7 @@ The pattern looked closely:
 (?=\s|$)          #to look ahead.
 ```
 
-source: [stackoverflow](https://stackoverflow.com/questions/6109882/regex-match-all-characters-between-two-strings)
+source: [StackOverflow](https://stackoverflow.com/questions/6109882/regex-match-all-characters-between-two-strings)
 
 - You can even use [regex in CSS](https://www.youtube.com/shorts/_1uS0_rgj14)
 
