@@ -39,13 +39,22 @@ If you are curious about my advance. [Here](http://github.com/AucaCoyan/exp-rust
 
 ### tips and tricks in rust
 
-There is a macro to sign work in progress in your code, without breaking the complier (like a `pass` equivalent from Python).
+- You need to write code that won't be used in a short time and don't like to recieve warnings? write this at the top of your program:
+
+```rust
+#![allow(unused)]
+```
+
+- There is a macro to sign work in progress in your code, without breaking the complier (like a `pass` equivalent from Python).
 
 ```rust
 todo!()
 ```
 
 source: [Let's get rusty - Prototyping in Rust with the todo!() macro](https://www.youtube.com/watch?v=KdPVCGfZ8sI)
+
+- You can have an `Enum` with an implementation for just one (or some) of the types. You'll have to use `traits` and `impl` on your enum.
+source (and explanation): [StackOverflow](https://stackoverflow.com/questions/68740420/can-a-rust-enum-use-methods-implemented-on-one-of-its-variants)
 
 ### Inline hints
 
