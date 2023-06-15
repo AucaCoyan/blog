@@ -26,6 +26,10 @@ Youtube is an excellent platform, but not without its downsides: It's so full of
 
 - [This specific video](https://www.youtube.com/watch?v=cKPlPJyQrt4) by James Powell "So you want to be a Python expert" is insightful, even if you don't understand most of the features that are mentioned in the video. Watch it for the plot. The other videos by James Powell aren't very thoughtful but they can help you in a thing or two.
 
+### Other excellent resources
+
+- Looking for a `mypy` guide? I can't recommend enough the [Tushar blogpost](https://tushar.lol/post/mypy-guide/)
+
 # Interesting things
 
 - [PrettyErrors](https://github.com/onelivesleft/PrettyErrors) turns Exceptions into a beautiful poem.
