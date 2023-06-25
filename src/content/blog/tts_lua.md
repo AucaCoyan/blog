@@ -27,6 +27,10 @@ On my free time I play boardgames in Tabletop Simulator. So most of the time I w
 
 # Mods and saves
 
+- Where are my mods saved? here:
+```
+C:\Users\{user}\OneDrive\Documents\My Games\Tabletop Simulator\Mods
+```
 - [tts-save](https://github.com/ikegami/tts_save) are tools for mods saves.
 
 # IDE
