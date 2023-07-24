@@ -24,7 +24,7 @@ I'll promise I'll update if a new toy comes to the playground!
 
 - My Shell config is always up to date in in my [dotfiles](https://github.com/AucaCoyan/dotfiles) repo, but here is a quick rundown:
 
-  - On Windows I use [PowerShell v7](https://stackoverflow.com/a/73378788/8552476) in [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), with a customized theme
+  - On Windows I use [nushell](https://www.nushell.sh/) in [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), with a customized theme
   - On Ubuntu I use [Fish shell](https://fishshell.com/), also with some [touched settings](https://github.com/AucaCoyan/dotfiles/tree/main/.config/fish)
 
 ## Terminal Apps
@@ -35,7 +35,7 @@ As for the CLI tools, if available, I prefer tools developed in Rust, because us
 - [Github CLI](https://github.com/cli/cli) is amazing.
 - [Gitlab also has a CLI](https://gitlab.com/gitlab-org/cli).
 
-- I use [chocolatey](https://chocolatey.org/) package manager a lot.
+- I use [`scoop`](scoop.sh/) package manager a lot.
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep) is your faster, better, stronger grep (and runs in Windows!)
 - [`exa`](https://github.com/ogham/exa) a modern replacement for `ls`. (Works on linux tho). (Works only on linux tho)
 - For Windows PowerShell I use [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
@@ -45,3 +45,4 @@ As for the CLI tools, if available, I prefer tools developed in Rust, because us
 - I also use a series of apps to manage versions of common tools, like:
   - [`pyenv-win`](https://github.com/pyenv-win/pyenv-win) to manage python versions (so you can select which version python and manage installations).
   - [`fnm` (fast NodeJS Manager)](https://github.com/Schniz/fnm) is a NodeJS version manager written in Rust. Yes, you need that.
+  - You want something to watch your files for changes and excecute a command when detect a difference? [`watchfiles`] got you covered

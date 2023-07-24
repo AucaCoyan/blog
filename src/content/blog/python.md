@@ -31,11 +31,15 @@ Youtube is an excellent platform, but not without its downsides: It's so full of
     - How do you use implement it? How to ...? [TechWithTim](https://www.youtube.com/watch?v=QORvB-_mbZ0) has a super cool summary of `typing` library.
     - Do you also use VS Code? then [check out](https://www.youtube.com/watch?v=hHBp0r4w86g) this guide by the VS Code youtube channel.
     - Looking for a `mypy` guide? I can't recommend enough the [Tushar blogpost](https://tushar.lol/post/mypy-guide/).
+    - Take a look at [`pydantic`](https://github.com/pydantic/pydantic) too, it is great
 
 ### Tools
 
 - [`Black`](https://github.com/psf/black) is the formatter
 - [`ruff`](https://github.com/astral-sh/ruff) is my preferred linter. It includes the lints from [`flake8`](https://github.com/pycqa/flake8), and [`isort`](https://pycqa.github.io/isort/)!
+- You wish a `debug` print like in rust? [here, Samuel Colvin](https://python-devtools.helpmanual.io/usage/) delivered.
+- writing a CLI app? take a look at [`typer`](https://github.com/tiangolo/typer)
+- do you use a SQL db? make sure you read through [`sqlmodel`](https://github.com/tiangolo/sqlmodel)
 
 ### Interesting things
 
