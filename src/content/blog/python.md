@@ -25,6 +25,10 @@ Youtube is an excellent platform, but not without its downsides: It's so full of
 ### Resources
 
 - [This specific video](https://www.youtube.com/watch?v=cKPlPJyQrt4) by James Powell "So you want to be a Python expert" is insightful, even if you don't understand most of the features that are mentioned in the video. Watch it for the plot. The other videos by James Powell aren't very thoughtful but they can help you in a thing or two.
+- Python's dunder methods, or magic methods:
+        - Python magic methods are known by everyone (`__init__` for example). 
+        - You can find an explanation of what dunder methods are by TechWithTim [here](https://www.youtube.com/watch?v=z11P9sojHuM).
+        - And Arjan talks about when not to use them [here](https://www.youtube.com/watch?v=3iJjBOne2sM).
 - types, `typing`, typing anotations and more:
     - FastAPI [does an excellent job explaining](https://fastapi.tiangolo.com/python-types/) the types in python.
     - Why and when should you use type hints? [Arjan got you covered](https://www.youtube.com/watch?v=dgBCEB2jVU0).
