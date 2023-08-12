@@ -8,7 +8,6 @@ slug: vscode
 pubDate: "Jul 01 2022"
 ignorePost: false
 ---
-
 VS code is one of my favorites editors. With the years I gather a few tips I can pass on to you:
 
 # Did you know?
@@ -17,6 +16,7 @@ VS code is one of my favorites editors. With the years I gather a few tips I can
 - navigate your code better with [the outline view](https://www.youtube.com/shorts/_5EviVsd0Xo)
 - you can [rename the terminal name and change it's color](https://youtube.com/shorts/9QC2SDkWyvI)
 - track your [items in your code with the extension TODO Tree](https://www.youtube.com/shorts/_vNt04DimtU)
+- go to symbols with [Ctrl + Shift + O](https://code.visualstudio.com/docs/languages/markdown#_go-to-header-in-file)
 
 # Tasks are great
 

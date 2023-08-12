@@ -7,7 +7,6 @@ pubDate: "Mar 12 2023"
 
 Regex (regular expressions) is such an amazing technology. It's the most popular (and certainly powerful) text search engine.
 
-
 ### Links
 
 - As a learning resource, [RegexOne](https://regexone.com/) guides you with excercises and is a great pratise tool.
@@ -17,8 +16,7 @@ Regex (regular expressions) is such an amazing technology. It's the most popular
 - If you want an more advanced documentation, [regular-exresions.info](https://www.regular-expressions.info/quickstart.html) may help advanced users.
 - Are you a visual person? [try this regex diagram generator](https://regexper.com/#%28%28e%7C%C2%A3%7C%5C%24%29%28%5B1-9%5D%5B0-9%5D*%7C0%29%28%2C%7C%5C%24%7C%5C.%29%7B1%7D%28%5B0-9%5D%5B0-9%5D%29%29%7C%28%28%5B1-9%5D%5B0-9%5D*%7C0%29%2C%5B0-9%5D%5B0-9%5D%28EUR%29%29%7C%28%5B1-9%5D%5B0-9%5D*%7C0%29%5C%24%5B0-9%5D%7B2%7D). It's very powerful!
 
-
-### How to:
+### How to
 
 - Match all the caracters between 2 strings
 
@@ -43,7 +41,6 @@ source: [StackOverflow](https://stackoverflow.com/questions/6109882/regex-match-
 ### Apps
 
 - For CLI, [ripgrep](https://github.com/BurntSushi/ripgrep) is king. It also has [ripgrep-all](https://github.com/phiresky/ripgrep-all) (unrelated to rg) that search among pdf, docx, sqlite, jpg, movie subtitles and more.
-    - you have [the guide here](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)
+  - you have [the guide here](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)
 - Do you want a GUI? [here](https://regex-vis.com/). You are welcome.
 - If you want to go the other way, you can [provide the cases, and `grex` will infer the regex expression](https://github.com/pemistahl/grex)
-

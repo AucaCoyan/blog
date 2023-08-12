@@ -98,4 +98,3 @@ etc
 ```
 
 and after the `@` runs the function `nu-complete git branches` after you press `TAB` in the place you get `targets`
-

@@ -8,6 +8,7 @@ slug: rust
 ---
 
 The core features of rust are:
+
 - Performance
 - Reliability
 - Productivity
@@ -80,9 +81,10 @@ As a sumup table, I have found these packages of interest
 | `sea-query`    | query builder   | ✅    | ❌              |
 | `r2d2`         | connection pool | ✅    | ✅              |
 
-# testing 
+# testing
 
 If you want to feel confident of your product, you need to test it.
+
 - [Jorge does a great job](https://www.youtube.com/watch?v=_jDKeOtOiEo) at explaining testing in rust. Also gives a couple of good tips for advanced users!
 - [next-test](https://nexte.st/) is a better `cargo test` than the default. Try it and see what it looks like.
 - add coverage with [`cargo grcov`](https://docs.rs/crate/grcov/0.4.3).
@@ -107,6 +109,7 @@ As I read [this `rustup` book](https://rust-lang.github.io/rustup/index.html), i
 - components are like `tools` that rustup installs. Here are `cargo`, `rust-analyzer`, `clippy` and so on.
 
 # linters
+
 ## `clippy` is your friend
 
 [`clippy`](https://doc.rust-lang.org/clippy/usage.html) is a linter to catch common errors and mistakes in rust (kinda like `flake8` in python).
@@ -144,7 +147,7 @@ to have simply hot reload, and if you want the quieter version:
 cargo watch --quiet --clear --exec 'run --quiet'
 ```
 
-##### bonus tip!
+##### bonus tip
 
 If you are currently in a `parent` folder with many sub projects, you can run a folder like this:
 

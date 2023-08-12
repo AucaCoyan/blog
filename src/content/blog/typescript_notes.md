@@ -22,10 +22,10 @@ Do you want yo learn the basics? I can recommend [this live with Matt Pocock](ht
 It is a superset of of typescript that enable you to specify types of typescript with a schema and some additional configurations.[Learn it here with WebDevSimplified](https://www.youtube.com/watch?v=9UVPk0Ulm6U)
 
 ## What is `tRPC`
+
 It is a form to send and recieve types through an API. [Here](https://www.youtube.com/watch?v=lxnPMB0Jc7E) is explained by WebDevSimplified
 
-
-## I prefer normal functions over arrow functions most of the time.
+## I prefer normal functions over arrow functions most of the time
 
 [This](https://www.youtube.com/watch?v=5iGGvJn8K1U) video explains it clearly.
 

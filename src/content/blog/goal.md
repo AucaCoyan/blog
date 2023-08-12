@@ -8,7 +8,7 @@ pubDate: "Jul 01 2022"
 ignorePost: false
 ---
 
-![](https://preview.redd.it/916ijspl5zr11.gif?format=mp4&s=d62e20e7309f7440edb0a323f10509169da66110)
+![first of all](https://preview.redd.it/916ijspl5zr11.gif?format=mp4&s=d62e20e7309f7440edb0a323f10509169da66110)
 
 I always wanted to communicate the things I wish I knew before. The coding journey may be long and even harder than it is already if you don't find resources to help you.
 Speaking of those, the internet is full of blogs, especially coding blogs, so why am I doing this?
@@ -17,7 +17,7 @@ I was inspired by this [excellent `mypy` post](https://sadh.life/post/mypy-guide
 
 Here below you will find what you will read here:
 
-## first and foremost, to have my notes uploaded to the web.
+## first and foremost, to have my notes uploaded to the web
 
 I take notes on the courses, StackOverflow searches, tips I see in TikTok, shorts of YouTube, and simple good ideas I find in general.
 
@@ -27,7 +27,7 @@ As I started to code, I read loads and loads of terms that I didn't understood. 
 
 I would like the community of programmers to make other newbies feel at home, rather than dizzy about what is going on and think that they are the problem.
 
-## lastly, to pass down really useful hints.
+## lastly, to pass down really useful hints
 
 That low-count start repo on github that solves a really common and unaddressed problem, or these the magic recipes with the tools everybody use, like `git`, `shell` and such.
 

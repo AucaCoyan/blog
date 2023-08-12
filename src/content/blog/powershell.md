@@ -54,7 +54,7 @@ refreshenv
 
 You `echo "pnpm-lock.yaml" | Out-File Output_file.txt -Append` with the append flag.
 
-# You can list...
+# You can list
 
 The verbs with `Get-Verb`
 
