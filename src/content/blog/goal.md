@@ -1,5 +1,5 @@
 ---
-title: The Goal of this personal coding blog
+title: The Purpose of My Personal Coding Blog
 description: Why am I doing this?
 heroImage: "/images/goal.png"
 tags: programming, developer, learning, programming blogs
@@ -10,26 +10,24 @@ ignorePost: false
 
 ![first of all](https://preview.redd.it/916ijspl5zr11.gif?format=mp4&s=d62e20e7309f7440edb0a323f10509169da66110)
 
-I always wanted to communicate the things I wish I knew before. The coding journey may be long and even harder than it is already if you don't find resources to help you.
-Speaking of those, the internet is full of blogs, especially coding blogs, so why am I doing this?
+From the beginning, I have always wanted to share the things I wish I had known earlier in my coding journey. Finding resources and support can be challenging, and this is why I decided to start my own blog.
 
-I was inspired by this [excellent `mypy` post](https://sadh.life/post/mypy-guide/), in which blog [this other post talking about taking notes](https://sadh.life/post/write-a-blog/) convinced me to start my own.
+I was inspired by an [insightful post on `mypy`](https://sadh.life/post/mypy-guide/), which led me [to another post](https://sadh.life/post/write-a-blog/) about the importance of taking notes. This convinced me to create my own platform.
 
-Here below you will find what you will read here:
+Here's what you can expect to find on my blog:
 
-## first and foremost, to have my notes uploaded to the web
+## 1. Uploading my personal notes
 
-I take notes on the courses, StackOverflow searches, tips I see in TikTok, shorts of YouTube, and simple good ideas I find in general.
+I compile notes from various sources such as online courses, StackOverflow searches, TikTok tips, YouTube shorts, and other useful ideas I come across.
 
-## next in line, to express my beliefs about how we can all produce content in a better way (especially welcoming for newcomers!)
+## 2. Expressing my beliefs on improving content creation
 
-As I started to code, I read loads and loads of terms that I didn't understood. And even if had the patiences of I googling down the rabbit hole, most of the time it gets worse and worse for every term you search.
+I believe in making coding more accessible, especially for newcomers. When I began my coding journey, I encountered numerous unfamiliar terms. Even after searching for explanations, it often became overwhelming. I want to foster a community that welcomes beginners and makes them feel at ease rather than confused.
 
-I would like the community of programmers to make other newbies feel at home, rather than dizzy about what is going on and think that they are the problem.
+## 3. Sharing valuable hints and resources
 
-## lastly, to pass down really useful hints
+I aim to pass down useful knowledge to others. This includes sharing low-count star repositories on GitHub that solve common and overlooked problems. Additionally, I will provide tips and tricks using popular tools like `git` and the shell.
 
-That low-count start repo on github that solves a really common and unaddressed problem, or these the magic recipes with the tools everybody use, like `git`, `shell` and such.
+By creating this coding blog, I hope to contribute to the programming community and make the coding journey a little smoother for everyone.
 
-Those
 This post comes from github, view it [here](https://github.com/AucaCoyan/blog/blob/main/goal.md)
