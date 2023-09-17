@@ -19,6 +19,7 @@ As always, I will leave here my 2 cents in the crazy big book called the world w
 
 - [No Boilerplate](https://www.youtube.com/playlist?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP) has an amazing playlist explaining concepts from the beginning and getting you excited to learn rust. You can't stop binge watching!
 - [This other post by Brandon Smith](https://www.brandons.me/blog/why-rust-strings-seem-hard) talks about strings in rust. For devs coming from every popular languages except C or C++, `strings` are easy to work with. By comparison, strings in rust are a tough cookie.
+- [Let's get Rust did an amazing video on string types](https://www.youtube.com/watch?v=CpvzeyzgQdw). I recommend it if you have doubts!.
 - [The book has a good summary on collections (vectors, lists, maps, etc)](https://doc.rust-lang.org/std/collections/index.html)
 - A good alternative to the Rust Book is the [Learning Rust page](https://learning-rust.github.io/docs/).
 - If you want to start with tokio (and you should, because it's used _everywhere_) you can peek at [this recommendations](https://youtu.be/ycMiMDHopNc?t=4993)
