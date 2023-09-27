@@ -52,7 +52,12 @@ todo!()
 source: [Let's get rusty - Prototyping in Rust with the todo!() macro](https://www.youtube.com/watch?v=KdPVCGfZ8sI)
 
 - You can have an `Enum` with an implementation for just one (or some) of the types. You'll have to use `traits` and `impl` on your enum.
+
   source (and explanation): [StackOverflow](https://stackoverflow.com/questions/68740420/can-a-rust-enum-use-methods-implemented-on-one-of-its-variants)
+
+- you can include a static string from a file with `include_string!("file.txt")`
+
+  source: [rust std docs](https://doc.rust-lang.org/std/macro.include_str.html)
 
 ### Inline hints
 
