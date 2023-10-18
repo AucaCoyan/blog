@@ -93,6 +93,10 @@ git rm .\this-file.txt --cached
 does the same.
 The `--cached` part does delete the file from the index (adding it to staging area of the next commit), but doesn't delete the file on your computer.
 
+### Keep the file on the repo, but don't track newer changes
+
+That's `git update-index –skip-worktree file1.txt` is for
+
 ### you can see the differences with a specific commit
 
 ```sh
