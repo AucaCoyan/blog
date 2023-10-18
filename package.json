@@ -7,21 +7,25 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "biome format --write ./src"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.16.2",
-    "@astrojs/rss": "^2.1.1",
-    "@astrojs/sitemap": "^1.0.1",
-    "@astrojs/tailwind": "^3.0.1",
-    "@tailwindcss/typography": "^0.5.9",
-    "astro": "^2.0.14",
-    "rollup": "^3.17.1",
-    "tailwindcss": "^3.2.7"
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.0",
+    "@astrojs/tailwind": "^5.0.0",
+    "@biomejs/biome": "^1.2.2",
+    "@tailwindcss/typography": "^0.5.10",
+    "astro": "^3.2.2",
+    "rollup": "^3.29.4",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-    "prettier": "^2.8.4",
-    "prettier-plugin-astro": "^0.8.0",
-    "prettier-plugin-tailwindcss": "^0.2.3"
+    "astro-https-image-endpoint": "^0.1.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-astro": "^0.8.1",
+    "prettier-plugin-tailwindcss": "^0.2.8"
   }
 }
