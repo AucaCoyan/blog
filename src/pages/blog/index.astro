@@ -6,10 +6,12 @@ import Footer from "../../components/Footer.astro";
 import Header from "../../components/Header.astro";
 import global_styles from "../../components/globalstyles";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import PostList from "../../components/PostList.astro";
 
-const posts = (await getCollection("blog")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
-);
+// const posts = (await getCollection("blog")).sort(
+//   (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+// );
+const posts = await getCollection("posts");
 ---
 
 <!DOCTYPE html>
@@ -23,31 +25,9 @@ const posts = (await getCollection("blog")).sort(
       {/* Title */}
       <div class="mt-10 mb-5 text-5xl font-bold text-center">Blog</div>
       {/* Post cycle */}
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:p-0 auto-rows-max"
-      >
-        {
-          posts.map((post) => (
-            /*  Single post */ <div class="flex-colself-stretch m-2 flex cursor-pointer overflow-hidden rounded-lg border border-gray-200 shadow-lg hover:bg-gray-100 dark:border-none dark:bg-zinc-800 dark:hover:bg-gray-700">
-              <a href={`/blog/${post.slug}/`}>
-                <div class="items-start">
-                  <Image
-                    width={650}
-                    height={340}
-                    alt={post.data.title}
-                    src={`${post.data.heroImage}`}
-                  />
-                  {/* Post title */}
-                  <h1 class="my-4 p-4 text-center text-2xl font-bold">
-                    {post.data.title}
-                  </h1>
-                </div>
-              </a>
-            </div>
-          ))
-        }
-      </div>
+      <PostList posts={posts} />
     </main>
+
     <Footer />
   </body>
 </html>
