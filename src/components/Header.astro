@@ -1,6 +1,6 @@
 ---
-import { Image } from "astro:assets";
-import profile_pic from "../images/profile_pic.png";
+import profile_pic from "../../public/profile_pic.jpg";
+import ThemeIcon from "./ThemeIcon.astro";
 ---
 
 <header>
@@ -12,7 +12,7 @@ import profile_pic from "../images/profile_pic.png";
       <a href="/">
         {/* Logo */}
         <div class="flex items-center justify-between cursor-pointer">
-          <Image
+          <img
             src={profile_pic}
             height={36}
             width={36}
