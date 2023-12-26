@@ -1,9 +1,9 @@
 ---
-import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
 import global_styles from "../components/globalstyles";
 
 type Props = CollectionEntry<"blog">["data"];
@@ -21,12 +21,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <!-- image -->
     {
       heroImage && (
-        <Image
+        <img
           width={720}
           height={360}
           src={heroImage}
           alt=""
-          class="mx-auto py-5"
+          class="py-5 mx-auto"
         />
       )
     }

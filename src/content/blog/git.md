@@ -1,6 +1,6 @@
 ---
 title: git
-heroImage: "./images/git.png"
+heroImage: "/images/git.png"
 domain: aucacoyan.hashnode.dev
 description: Distributed is the new centralized
 pubDate: "Jul 01 2022"
