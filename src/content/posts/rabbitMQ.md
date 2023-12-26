@@ -1,6 +1,6 @@
 ---
 title: RabbitMQ
-heroImage: "/images/rabbitmq.png"
+heroImage: "./images/rabbitmq.png"
 description: enqueue and dequeue fast around your apps
 pubDate: "Jul 01 2022"
 ---

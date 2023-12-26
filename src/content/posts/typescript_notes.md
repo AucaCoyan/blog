@@ -1,6 +1,6 @@
 ---
 title: "Typescript"
-heroImage: "/images/ts.png"
+heroImage: "./images/ts.png"
 domain: aucacoyan.hashnode.dev
 description: "My typescript notes"
 tags: typescript, javascript
