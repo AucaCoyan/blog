@@ -1,6 +1,6 @@
 ---
 title: Readability counts!
-heroImage: "./images/readability.png"
+heroImage: "/images/readability.png"
 domain: aucacoyan.hashnode.dev
 description: Make your eyes actually read the code
 tags: General Programming, beginners, Developer, learning, Tutorial

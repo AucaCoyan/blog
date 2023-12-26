@@ -1,6 +1,6 @@
 ---
 title: VS Code tips & tricks
-heroImage: "./images/vscode.png"
+heroImage: "/images/vscode.png"
 description: the most used text editor
 domain: aucacoyan.hashnode.dev
 tags: vscode

@@ -1,7 +1,7 @@
 ---
 title: Django
 pubDate: "Apr 04 2023"
-heroImage: "./images/py-django.png"
+heroImage: "/images/py-django.png"
 description: my first and most used python library
 tags: rust
 ---

@@ -1,6 +1,6 @@
 ---
 title: My tools
-heroImage: "./images/tools.png"
+heroImage: "/images/tools.png"
 domain: aucacoyan.hashnode.dev
 description: My favorite tools to develop everyday
 pubDate: "Jul 01 2022"

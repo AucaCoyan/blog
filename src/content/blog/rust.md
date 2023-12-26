@@ -1,7 +1,7 @@
 ---
 title: Rust
 pubDate: "Jul 01 2022"
-heroImage: "./images/rust.png"
+heroImage: "/images/rust.png"
 description: my favorite language
 tags: rust
 slug: rust
