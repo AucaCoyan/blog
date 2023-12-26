@@ -1,6 +1,6 @@
 ---
 title: Python
-heroImage: "/images/py.png"
+heroImage: "./images/py.png"
 pubDate: "Jul 01 2022"
 description: my first language
 tags: python

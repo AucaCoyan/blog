@@ -1,6 +1,6 @@
 ---
 title: Javascript
-heroImage: "/images/js.png"
+heroImage: "./images/js.png"
 domain: aucacoyan.hashnode.dev
 description: the most hated language
 pubDate: "Jul 01 2022"

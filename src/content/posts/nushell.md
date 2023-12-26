@@ -1,6 +1,6 @@
 ---
 title: nushell
-heroImage: "/images/nushell.png"
+heroImage: "./images/nushell.png"
 description: use a shell newer than 20 years old
 pubDate: "Jul 01 2022"
 ---
