@@ -1,15 +1,16 @@
 ---
 title: nushell
-heroImage: "/images/nushell.png"
+heroImage: "../../images/nushell.png"
 description: use a shell newer than 20 years old
-pubDate: "Jul 01 2022"
+pubDate: "Mar 16 2023"
+updatedDate: "Aug 12 2023"
 ---
 
 I like `nushell` because it works the same on all the operative systems. Something kind of obvious in the present date, but still unaddressed in some circumstances.
 
 ## You want to extract a piece of info from a `json` file
 
-Get all the script from the package.json
+Get all the scripts from the package.json
 
 ```
 open package.json | get scripts
@@ -36,6 +37,7 @@ source: [`nushell` discord](https://discord.com/channels/601130461678272522/6152
 ## if you have a json output
 
 try to pipe it with `| from json`
+
 ```
 scoop export | from json
 ```
@@ -45,6 +47,7 @@ scoop export | from json
 The command `help` of nushell have syntax coloring and a few goodies, but you should generate first the options, types and descriptions. (Checkout the nushell community, there are high chances that they have done it already!)
 
 `help git push` outputs
+
 ```
 Check out git branches and files
 
@@ -89,6 +92,7 @@ export extern "git checkout" [
     --detach(-d)                                    # detach HEAD at named commit
     --force(-f)                                     # force checkout (throw away local modifications)
 ```
+
 This lists the descriptions for options, and the types (`<String>` for `--conflict` and so on)
 
 ```

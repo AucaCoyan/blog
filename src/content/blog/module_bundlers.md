@@ -1,8 +1,9 @@
 ---
 title: Module Bundlers
-heroImage: "/images/bundlers.png"
+heroImage: "../../images/bundlers.png"
 description: Module Bundlers
-pubDate: "Jul 01 2022"
+pubDate: "Oct 02 2022"
+updatedDate: "Oct 26 2022"
 tags: webpack, modules, javascript
 slug: module_bundlers
 ignorePost: false

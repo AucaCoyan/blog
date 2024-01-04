@@ -1,7 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# gitignore patterns by atlassian
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+# `**/` to match anywhere on the repo
+**/first-post
+# `*.jkp` to match an extension
+*.jkp
+# `/node_modules/` the directory in the root (not anywhere)
 
 # dependencies
-/node_modules
+**/node_modules
 /.pnp
 .pnp.js
 pnpm-lock.yaml
@@ -37,12 +43,18 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 pnpm-lock.yaml
+.yarn/
+yarn.lock
 
 # astro
 .astro/
 
 # guide posts
-src/content/blog/markdown-style-guide.md
-src/content/blog/using-mdx.mdx
-public/placeholder-hero.jpg
+**/first-post.md
+**/markdown-style-guide*
+**/HeaderLink*
+**/using-mdx*
+blog-placeholder*
 .vscode/launch.json
+
+.nvmrc

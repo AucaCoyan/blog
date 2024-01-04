@@ -1,8 +1,9 @@
 ---
 title: SQL
 description: the most popular DB language
-pubDate: "Jul 01 2022"
-heroImage: "/images/sql.png"
+pubDate: "Dec 3 2022"
+updatedDate: "Jul 17 2023"
+heroImage: "../../images/sql.png"
 ---
 
 SQL (pronounced 'see-qwel') is the currently most famous database language. As I need to learn it deeply in my current job, here are my side notes:

@@ -1,8 +1,9 @@
 ---
 title: Lua Scripts for Tabletop Simulator
-heroImage: "/images/lua.png"
+heroImage: "../../images/lua.png"
 description: my notes on TTS Lua
-pubDate: "Jul 01 2022"
+pubDate: "Oct 13 2022"
+updatedDate: "Aug 12 2023"
 slug: tts_lua
 ignorePost: false
 ---

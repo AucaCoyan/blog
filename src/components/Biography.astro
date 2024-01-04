@@ -1,5 +1,6 @@
 ---
-import profile_pic from "../../public/profile_pic.jpg";
+import { Image } from "astro:assets";
+import profile_pic from "../images/profile_pic.png";
 ---
 
 <section class="max-w-6xl mx-auto">
@@ -32,7 +33,7 @@ import profile_pic from "../../public/profile_pic.jpg";
         and catch up with my reading.
       </p>
     </div>
-    <img
+    <Image
       src={profile_pic}
       alt="profile pic"
       class="mt-10 mb-10 max-w-[50%] rounded-full"

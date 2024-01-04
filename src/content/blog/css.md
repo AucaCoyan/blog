@@ -5,9 +5,9 @@ description: "my notes on css"
 tags: css, css3, design, web development
 slug: css
 ignorePost: false
-pubDate: "Jul 01 2022"
-updatedDate: "10 Feb 2022"
-heroImage: "/images/css.png"
+pubDate: "Sep 30 2022"
+updatedDate: "Oct 26 2022"
+heroImage: "../../images/css.png"
 ---
 
 ### Here are my notes on CSS. You will find tips, tricks, and some good other resources (videos, sites and more). Suggestions are welcome!

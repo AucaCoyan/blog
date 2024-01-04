@@ -1,10 +1,11 @@
 ---
 title: The Purpose of My Personal Coding Blog
 description: Why am I doing this?
-heroImage: "/images/goal.png"
+heroImage: "../../images/goal.png"
 tags: programming, developer, learning, programming blogs
 slug: blog-goal
-pubDate: "Jul 01 2022"
+pubDate: "Sep 29 2022"
+updatedDate: "Apr 29 2023"
 ignorePost: false
 ---
 

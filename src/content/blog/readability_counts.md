@@ -1,13 +1,12 @@
 ---
 title: Readability counts!
-heroImage: "/images/readability.png"
-domain: aucacoyan.hashnode.dev
+heroImage: "../../images/readability.png"
 description: Make your eyes actually read the code
 tags: General Programming, beginners, Developer, learning, Tutorial
 slug: readability_counts
-cover: https://imgs.search.brave.com/p4Od25-2sFZNCdkNsTqqisIgw_aqlAM-DFptIGBBZcw/rs:fit:600:180:1/g:ce/aHR0cHM6Ly93d3cu/ZG14em9uZS5jb20v/ZG93bmxvYWRzL2lt/YWdlcy9yZWFkYWJs/ZV9jb2RlLnBuZw
 ignorePost: false
-pubDate: "Jul 01 2022"
+pubDate: "Sep 29 2022"
+updatedDate: "Sep 29 2022"
 ---
 
 Many times I code and either read code written by others that is painfully hard to understand at glance, or I write things that are ... unpronounceable, to say the least.

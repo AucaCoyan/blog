@@ -1,12 +1,12 @@
 ---
 title: "Typescript"
-heroImage: "/images/ts.png"
-domain: aucacoyan.hashnode.dev
+heroImage: "../../images/ts.png"
 description: "My typescript notes"
 tags: typescript, javascript
 slug: typescript_notes
 ignorePost: false
-pubDate: "Jul 01 2022"
+pubDate: "Aug 31 2022"
+updatedDate: "Aug 12 2023"
 ---
 
 Here are my typescript notes:
