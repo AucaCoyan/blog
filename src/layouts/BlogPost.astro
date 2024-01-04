@@ -4,6 +4,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
+import { Image } from "astro:assets";
 import global_styles from "../components/globalstyles";
 
 type Props = CollectionEntry<"blog">["data"];
@@ -13,38 +14,52 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 
 <html lang="en">
   <head>
-    <BaseHead title={`Auca - ${title}`} description={description} />
+    <BaseHead title={title} description={description} />
+    <style>
+      .hero-image img {
+        display: block;
+        margin: 0 auto;
+        box-shadow: var(--box-shadow);
+      }
+    </style>
   </head>
 
   <body class={global_styles}>
     <Header />
-    <!-- image -->
-    {
-      heroImage && (
-        <img
-          width={720}
-          height={360}
-          src={heroImage}
-          alt=""
-          class="py-5 mx-auto"
-        />
-      )
-    }
-    <main
-      class="prose mx-auto max-w-3xl hover:prose-a:text-blue-500 prose-pre:bg-slate-100 dark:prose-invert dark:hover:prose-a:text-orange-500 dark:prose-pre:bg-slate-700 sm:prose-lg prose-code:text-orange-400 prose-code:.code-word-wrap px-8"
-    >
+    <main>
       <article>
-        <!-- title -->
-        <h1 class="title">{title}</h1>
-        <!-- date... -->
-        <!-- <FormattedDate date={pubDate} />
-        <!-- ...and updated date  -->
-        <!-- { updatedDate && (  <div class="last-updated-on">  Last updated on <FormattedDate date={updatedDate} /> </div>
-          )
-        }
-        <hr />
-        <!-- chidren will go here under <slot> -->
-        <slot />
+        <div class="hero-image m-auto">
+          {
+            heroImage && (
+              <Image
+                width={720}
+                height={416}
+                src={heroImage}
+                alt=""
+                class="rounded-xl"
+              />
+            )
+          }
+        </div>
+        <div
+          class="prose mx-auto max-w-3xl hover:prose-a:text-blue-500 prose-pre:bg-slate-100 dark:prose-invert dark:hover:prose-a:text-orange-500 dark:prose-pre:bg-slate-700 sm:prose-lg prose-code:text-orange-400 prose-code:code-word-wrap px-8 w-[720px]"
+        >
+          <div class="p-4 text-center leading-none">
+            <h1 class="">{title}</h1>
+            <div class="text-gray-400">
+              {
+                pubDate && (
+                  <div class="italic">
+                    Last updated on <FormattedDate date={updatedDate} />
+                  </div>
+                )
+              }
+            </div>
+            <hr class="my-5" />
+          </div>
+          {/* Actual MD content */}
+          <slot />
+        </div>
       </article>
     </main>
     <Footer />

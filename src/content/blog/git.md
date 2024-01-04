@@ -62,7 +62,7 @@ source: [this medium post](https://medium.com/@FlorentDestrema/a-simple-way-to-c
 if you have `nushell` shell installed
 
 ```sh
-git branch --merged | lines | where $it !~ '\*' | str trim | where $it != 'master' and $it != 'main' | each { |it| git branch -d $it } 
+git branch --merged | lines | where $it !~ '\*' | str trim | where $it != 'master' and $it != 'main' | each { |it| git branch -d $it }
 ```
 
 source: [this script](https://github.com/nushell/nu_scripts/blob/e60d20733e86b3fde6b7a596bab4ee6c14d4e3dc/sourced/cool-oneliners/git_gone.nu)
@@ -80,6 +80,7 @@ git push origin --delete remoteBranchName
 ### instead you want to delete a file which is currently tracked?
 
 Of course you can do
+
 ```sh
 rm .\this-file.txt
 # and then
@@ -91,6 +92,7 @@ but
 ```sh
 git rm .\this-file.txt --cached
 ```
+
 does the same.
 The `--cached` part does delete the file from the index (adding it to staging area of the next commit), but doesn't delete the file on your computer.
 

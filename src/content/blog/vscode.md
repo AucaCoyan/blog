@@ -7,6 +7,7 @@ pubDate: "Oct 13 2022"
 updatedDate: "Aug 12 2023"
 ignorePost: false
 ---
+
 VS code is one of my favorites editors. With the years I gather a few tips I can pass on to you:
 
 # Did you know?

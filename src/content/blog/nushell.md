@@ -37,6 +37,7 @@ source: [`nushell` discord](https://discord.com/channels/601130461678272522/6152
 ## if you have a json output
 
 try to pipe it with `| from json`
+
 ```
 scoop export | from json
 ```
@@ -46,6 +47,7 @@ scoop export | from json
 The command `help` of nushell have syntax coloring and a few goodies, but you should generate first the options, types and descriptions. (Checkout the nushell community, there are high chances that they have done it already!)
 
 `help git push` outputs
+
 ```
 Check out git branches and files
 
@@ -90,6 +92,7 @@ export extern "git checkout" [
     --detach(-d)                                    # detach HEAD at named commit
     --force(-f)                                     # force checkout (throw away local modifications)
 ```
+
 This lists the descriptions for options, and the types (`<String>` for `--conflict` and so on)
 
 ```

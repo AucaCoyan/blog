@@ -4,11 +4,11 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
-import FormattedDate from "../../components/FormattedDate.astro";
 import global_styles from "../../components/globalstyles";
+import { Image } from "astro:assets";
 
 const posts = (await getCollection("blog")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+  (a, b) => b.data.updatedDate.valueOf() - a.data.updatedDate.valueOf(),
 );
 ---
 
@@ -16,37 +16,53 @@ const posts = (await getCollection("blog")).sort(
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      ul li {
+        width: calc(50% - 1rem);
+      }
+      ul li * {
+        transition: 0.2s ease;
+      }
+      ul li a:hover h4,
+      ul a:hover img {
+        box-shadow: var(--box-shadow);
+      }
+      @media (max-width: 720px) {
+        ul {
+          gap: 0.5em;
+        }
+        ul li {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
   </head>
   <body class={global_styles}>
     <Header />
-    <main class="max-w-6xl mx-auto">
-      {/* Title */}
-      <div class="mt-10 mb-5 text-5xl font-bold text-center">Blog</div>
-      {/* Post cycle */}
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:p-0 auto-rows-max"
-      >
-        {
-          posts.map((post) => (
-            /*  Single post */ <div class="flex m-2 overflow-hidden border border-gray-200 rounded-lg shadow-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 flex-colself-stretch dark:bg-zinc-800 dark:border-none">
-              <a href={`/blog/${post.slug}/`}>
-                <div class="items-start">
-                  <img
-                    width={650}
-                    height={340}
-                    alt={post.data.title}
-                    src={`${post.data.heroImage}`}
+    <main class="mx-auto w-[960px]">
+      <section>
+        <ul class="flex flex-wrap gap-8 list-none">
+          {
+            posts.map((post) => (
+              <li class="">
+                <a href={`/blog/${post.slug}/`} class="no-underline">
+                  <Image
+                    width={720}
+                    height={360}
+                    src={post.data.heroImage}
+                    alt=""
+                    class="mb-2 rounded-xl"
                   />
-                  {/* Post title */}
-                  <h1 class="p-4 my-4 text-2xl font-bold text-center">
+                  <h4 class="text-xl font-bold text-center">
                     {post.data.title}
-                  </h1>
-                </div>
-              </a>
-            </div>
-          ))
-        }
-      </div>
+                  </h4>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
     </main>
     <Footer />
   </body>
