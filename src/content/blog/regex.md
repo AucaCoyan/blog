@@ -1,8 +1,9 @@
 ---
 title: Regex
-heroImage: "/images/regex.png"
+heroImage: "../../images/regex.png"
 description: the most powerful text search engine
 pubDate: "Mar 12 2023"
+updatedDate: "Aug 12 2023"
 ---
 
 Regex (regular expressions) is such an amazing technology. It's the most popular (and certainly powerful) text search engine.

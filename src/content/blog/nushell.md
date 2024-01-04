@@ -1,15 +1,16 @@
 ---
 title: nushell
-heroImage: "/images/nushell.png"
+heroImage: "../../images/nushell.png"
 description: use a shell newer than 20 years old
-pubDate: "Jul 01 2022"
+pubDate: "Mar 16 2023"
+updatedDate: "Aug 12 2023"
 ---
 
 I like `nushell` because it works the same on all the operative systems. Something kind of obvious in the present date, but still unaddressed in some circumstances.
 
 ## You want to extract a piece of info from a `json` file
 
-Get all the script from the package.json
+Get all the scripts from the package.json
 
 ```
 open package.json | get scripts

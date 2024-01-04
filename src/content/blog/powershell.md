@@ -1,7 +1,8 @@
 ---
 title: PowerShell
-heroImage: "/images/powershell.png"
-pubDate: "Jul 01 2022"
+heroImage: "../../images/powershell.png"
+pubDate: "Oct 15 2022"
+updatedDate: "Aug 12 2023"
 description: if you want to use the terminal in Windows...
 tags: powershell
 slug: powershell

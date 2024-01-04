@@ -4,8 +4,9 @@ description: You can bulk install software with the terminal
 socialImage: images/bulk_install.png
 domain: aucacoyan.hashnode.dev
 ignorePost: false
-pubDate: "Jul 01 2022"
-heroImage: "/images/bulk_install.png"
+pubDate: "Oct 02 2022"
+updatedDate: "Oct 02 2022"
+heroImage: "../../images/bulk_install.png"
 ---
 
 We've all been with a recently bought pc or formatted away from the point of disaster and the need to install every single piece of software is a bummer.

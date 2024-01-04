@@ -1,9 +1,10 @@
 ---
 title: The layers of the Web
-heroImage: "/images/layers_web.png"
+heroImage: "../../images/layers_web.png"
 domain: aucacoyan.hashnode.dev
 description: HTML, CSS and JS are all you can touch and see
-pubDate: "Jul 01 2022"
+pubDate: "Oct 02 2022"
+updatedDate: "Jul 23 2023"
 tags: html, css, javascript
 slug: layers_of_the_web
 ignorePost: false

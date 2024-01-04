@@ -1,7 +1,8 @@
 ---
 title: Python
-heroImage: "/images/py.png"
-pubDate: "Jul 01 2022"
+heroImage: "../../images/py.png"
+pubDate: "Oct 13 2022"
+updatedDate: "Aug 12 2023"
 description: my first language
 tags: python
 slug: python

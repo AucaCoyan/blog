@@ -1,11 +1,10 @@
 ---
 title: VS Code tips & tricks
-heroImage: "/images/vscode.png"
+heroImage: "../../images/vscode.png"
 description: the most used text editor
-domain: aucacoyan.hashnode.dev
-tags: vscode
 slug: vscode
-pubDate: "Jul 01 2022"
+pubDate: "Oct 13 2022"
+updatedDate: "Aug 12 2023"
 ignorePost: false
 ---
 VS code is one of my favorites editors. With the years I gather a few tips I can pass on to you:

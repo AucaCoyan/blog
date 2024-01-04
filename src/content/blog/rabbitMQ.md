@@ -1,8 +1,9 @@
 ---
 title: RabbitMQ
-heroImage: "/images/rabbitmq.png"
+heroImage: "../../images/rabbitmq.png"
 description: enqueue and dequeue fast around your apps
-pubDate: "Jul 01 2022"
+pubDate: "Jan 05 2023"
+updatedDate: "Aug 20 2023"
 ---
 
 RabbitMQ is a message broker: it accepts and forwards messages.
