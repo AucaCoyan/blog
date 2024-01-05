@@ -1,0 +1,20 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+import global_styles from "../components/globalstyles";
+
+const { title, desciption } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={desciption} />
+  </head>
+  <body class={global_styles}>
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
+</html>
