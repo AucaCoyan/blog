@@ -1,0 +1,38 @@
+---
+import WebsiteCard from "../components/Websitecard.astro";
+import Base from "../layouts/Base.astro";
+// @ts-ignore
+import tiktik from "../images/portfolio-Tiktik1.PNG";
+---
+
+<Base title="Auca Coyan's Works" description="My portfolio">
+  <div
+    class="relative h-full max-w-full !pb-12 pt-8 md:!pb-4 md:!pt-4 p-3 overflow-hidden items-center justify-center border border-[rgba(255,255,255,0.05)] turborepoCardBg flex gap-1 w-full"
+  >
+    <WebsiteCard
+      title="Tik Tik a very long long description"
+      link="https://tiktok-clone-nextjs-five.vercel.app/"
+      source="https://github.com/AucaCoyan/tiktok-clone-nextjs/"
+      image={tiktik}
+    />
+    <WebsiteCard title="Spotify clone" link="" source="" image={tiktik} />
+    <WebsiteCard
+      title="espanso, a text expander"
+      link="https://espanso.org/"
+      source="https://github.com/espanso/espanso"
+      image={tiktik}
+    />
+    <WebsiteCard
+      title="nufmt"
+      source="https://github.com/nushell/nufmt"
+      image={tiktik}
+    />
+    <!--
+    <WebsiteCard
+      title="Looking forward"
+      link=""
+      source="https://github.com/AucaCoyan/looking-forward"
+      image={tiktik}
+    /> -->
+  </div>
+</Base>

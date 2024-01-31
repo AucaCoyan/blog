@@ -1,0 +1,33 @@
+---
+import Image from "astro/components/Image.astro";
+
+interface Props {
+  title: string;
+  link?: string;
+  source: string;
+  image: any;
+}
+
+const { title, link, image, source } = Astro.props;
+
+let sdfdsfe: any = "adlfsd";
+---
+
+<div class="bg-white text-slate-800 rounded-xl px-8 py-3 text-center">
+  <h1 class="pt-2 pb-6 items-center font-black text-center">
+    {title}
+  </h1>
+  <Image src={image} alt="" width={400} height={350} />
+  <div class="flex justify-around">
+    <button
+      class="rounded-full p-1 pb-2 my-5 bg-yellow-500 hover:bg-gradient-to-br h-14 w-40 from-cyan-300 to-blue-500"
+    >
+      <a href={link}>link to the website</a>
+    </button>
+    <button
+      class="rounded-full p-1 pb-2 my-5 bg-yellow-500 hover:bg-gradient-to-br h-14 w-40 from-cyan-300 to-blue-500"
+    >
+      <a href={source}>source code</a>
+    </button>
+  </div>
+</div>

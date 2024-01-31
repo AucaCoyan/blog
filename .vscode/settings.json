@@ -1,10 +1,11 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "astro-build.astro-vscode",
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-  }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
