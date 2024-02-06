@@ -1,4 +1,4 @@
-## My personal blog
+# My personal blog
 
 I use [📦`pnpm`](pnpm.io/) for packaging the NPM modules.
 First, install the packages
