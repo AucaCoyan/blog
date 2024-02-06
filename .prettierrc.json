@@ -1,9 +1,17 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-astro"],
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-astro"
+  ],
   "tailwindConfig": "./tailwind.config.js",
   "overrides": [
     {
-      "files": ["*.ts", "*.js", "*.xml.js"],
+      "files": [
+        "*.ts",
+        "*.js",
+        "*.json",
+        "*.xml.js"
+      ],
       "options": {
         "tabWidth": 4
       }
