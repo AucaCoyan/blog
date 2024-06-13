@@ -8,11 +8,11 @@ import vercel from "@astrojs/vercel/static";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://aucacoyan.com",
-  integrations: [mdx(), sitemap(), tailwind()],
-  output: "static",
-  adapter: vercel(),
-  image: {
-    service: passthroughImageService()
-  }
+    site: "https://aucacoyan.com",
+    integrations: [mdx(), sitemap(), tailwind()],
+    output: "static",
+    adapter: vercel(),
+    image: {
+        service: passthroughImageService(),
+    },
 });

@@ -1,67 +1,57 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import { Image } from "astro:assets";
-import global_styles from "../components/globalstyles";
+import Base from "./Base.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead title={title} description={description} />
-    <style>
-      .hero-image img {
-        display: block;
-        margin: 0 auto;
-        box-shadow: var(--box-shadow);
-      }
-    </style>
-  </head>
+<style>
+  .hero-image img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: var(--box-shadow);
+  }
+</style>
 
-  <body class={global_styles}>
-    <Header />
-    <main>
-      <article>
-        <div class="hero-image m-auto">
-          {
-            heroImage && (
-              <Image
-                width={720}
-                height={416}
-                src={heroImage}
-                alt=""
-                class="rounded-xl"
-              />
-            )
-          }
-        </div>
-        <div
-          class="prose mx-auto max-w-3xl hover:prose-a:text-blue-500 prose-pre:bg-slate-100 dark:prose-invert dark:hover:prose-a:text-orange-500 dark:prose-pre:bg-slate-700 sm:prose-lg prose-code:text-orange-400 prose-code:code-word-wrap px-8 w-[720px]"
-        >
-          <div class="p-4 text-center leading-none">
-            <h1 class="">{title}</h1>
-            <div class="text-gray-400">
-              {
-                pubDate && (
-                  <div class="italic">
-                    Last updated on <FormattedDate date={updatedDate} />
-                  </div>
-                )
-              }
-            </div>
-            <hr class="my-5" />
+<Base title={title} description={description}>
+  <main>
+    <article>
+      <div class="hero-image m-auto">
+        {
+          heroImage && (
+            <Image
+              width={720}
+              height={416}
+              src={heroImage}
+              alt=""
+              class="rounded-xl"
+            />
+          )
+        }
+      </div>
+      <div
+        class="prose mx-auto max-w-3xl hover:prose-a:text-blue-500 prose-pre:bg-slate-100 dark:prose-invert dark:hover:prose-a:text-orange-500 dark:prose-pre:bg-slate-700 sm:prose-lg prose-code:text-orange-400 prose-code:code-word-wrap px-8 w-[720px]"
+      >
+        <div class="p-4 text-center leading-none">
+          <h1 class="">{title}</h1>
+          <div class="text-gray-400">
+            {
+              pubDate && (
+                <div class="italic">
+                  Last updated on <FormattedDate date={updatedDate} />
+                </div>
+              )
+            }
           </div>
-          {/* Actual MD content */}
-          <slot />
+          <hr class="my-5" />
         </div>
-      </article>
-    </main>
-    <Footer />
-  </body>
-</html>
+        {/* Actual MD content */}
+        <slot />
+      </div>
+    </article>
+  </main>
+</Base>
