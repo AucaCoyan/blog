@@ -1,8 +1,8 @@
 ---
-import WebsiteCard from "../components/Websitecard.astro";
 import Base from "../layouts/Base.astro";
 // @ts-ignore
 import tiktik from "../images/portfolio-Tiktik1.PNG";
+import WebsiteCard from "../components/WebsiteCard.astro";
 ---
 
 <Base title="Auca Coyan's Works" description="My portfolio">
@@ -20,6 +20,18 @@ import tiktik from "../images/portfolio-Tiktik1.PNG";
       title="espanso, a text expander"
       link="https://espanso.org/"
       source="https://github.com/espanso/espanso"
+      image={tiktik}
+    />
+    <WebsiteCard
+      title="nufmt, a nushell formatter"
+      link="https://www.nushell.sh/"
+      source="https://github.com/nushell/nufmt"
+      image={tiktik}
+    />
+    <WebsiteCard
+      title="nufmt, a nushell formatter"
+      link="https://www.nushell.sh/"
+      source="https://github.com/nushell/nufmt"
       image={tiktik}
     />
     <WebsiteCard
