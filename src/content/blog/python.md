@@ -50,6 +50,7 @@ Youtube is an excellent platform, but not without its downsides: It's so full of
 - [bpython](https://www.bpython-interpreter.org/) is a colorful REPL for python. Unfortunately only works for POSIX systems.
 - [Raw SQL, SQL Query Builder, or ORM?](https://www.youtube.com/watch?v=x1fCJ7sUXCM) Arjan gives a comprehensive view of all the options available.
 - [FastAPI](https://fastapi.tiangolo.com/) is by far the easiest and quickiest way to build a RESTful API.
+- [Pyrexp](https://pythonium.net/regex) is an online visual regex tester.
 
 # Tips and tricks
 
