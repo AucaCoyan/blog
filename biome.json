@@ -8,12 +8,19 @@
     "rules": {
       "all": true
     },
-    "ignore": [".astro/"],
-    "include": ["."]
+    "ignore": [
+      ".astro/"
+    ],
+    "include": [
+      "."
+    ]
   },
   "json": {
     "parser": {
       "allowComments": true
+    },
+    "formatter": {
+      "indentWidth": 2
     }
   }
 }
