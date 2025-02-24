@@ -8,6 +8,10 @@ updatedDate: "Aug 12 2023"
 tags: python, vscode, tools
 ---
 
+> Update Feb-2025:
+This is really old, I changed much of this tools for others. I'll update it when
+I have a sec!
+
 I have many tools which easy my work (almost) everyday, here are a few of them.
 I'll promise I'll update if a new toy comes to the playground!
 

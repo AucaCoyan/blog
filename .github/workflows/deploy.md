@@ -1,14 +1,15 @@
 name: Deploy
+
 on:
-  push:
-    branches: main
-  pull_request:
-    branches: main
+push:
+branches: main
+pull_request:
+branches: main
 
 jobs:
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
+deploy:
+name: Deploy
+runs-on: ubuntu-latest
 
     permissions:
       id-token: write # Needed for auth with Deno Deploy
@@ -40,5 +41,5 @@ jobs:
           project: "aucacoyan-blog"
           entrypoint: "server/entry.mjs"
           root: "dist"
-          
-          
+
+

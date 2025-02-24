@@ -1,3 +1,3 @@
-const global_styles = "bg-[#fffffe] text-black dark:bg-[#000] dark:text-white";
+const GLOBAL_STYLES = "bg-[#fffffe] text-black dark:bg-[#000] dark:text-white";
 
-export default global_styles;
+export default GLOBAL_STYLES;
