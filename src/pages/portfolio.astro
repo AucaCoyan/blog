@@ -1,0 +1,51 @@
+---
+import Base from "../layouts/Base.astro";
+// @ts-ignore
+import tiktik from "../images/portfolio-Tiktik1.PNG";
+import WebsiteCard from "../components/WebsiteCard.astro";
+---
+
+<Base title="Auca Coyan's Works" description="My portfolio">
+  <div
+    class="relative h-full max-w-full overflow-hidden gap-8 items-center justify-center flex flex-wrap w-full"
+  >
+    <WebsiteCard
+      title="Tik Tik, a TiTok clone"
+      link="https://tiktok-clone-nextjs-five.vercel.app/"
+      source="https://github.com/AucaCoyan/tiktok-clone-nextjs/"
+      image={tiktik}
+    />
+    <WebsiteCard title="Spotify clone" link="" source="" image={tiktik} />
+    <WebsiteCard
+      title="espanso, a text expander"
+      link="https://espanso.org/"
+      source="https://github.com/espanso/espanso"
+      image={tiktik}
+    />
+    <WebsiteCard
+      title="nufmt, a nushell formatter"
+      link="https://www.nushell.sh/"
+      source="https://github.com/nushell/nufmt"
+      image={tiktik}
+    />
+    <WebsiteCard
+      title="nufmt, a nushell formatter"
+      link="https://www.nushell.sh/"
+      source="https://github.com/nushell/nufmt"
+      image={tiktik}
+    />
+    <WebsiteCard
+      title="nufmt, a nushell formatter"
+      link="https://www.nushell.sh/"
+      source="https://github.com/nushell/nufmt"
+      image={tiktik}
+    />
+    <!--
+    <WebsiteCard
+      title="Looking forward"
+      link=""
+      source="https://github.com/AucaCoyan/looking-forward"
+      image={tiktik}
+    /> -->
+  </div>
+</Base>
