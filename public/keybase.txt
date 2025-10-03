@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aucacoyan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aucacoyan.com
+  * I am aucacoyan (https://keybase.io/aucacoyan) on keybase.
+  * I have a public key ASD4-106wdC4TagSygUH4vg49DB0zaJMQMU2uV6rt2PfDQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f8fb5d3ac1d0b84da812ca0507e2f838f43074cda24c40c536b95eabb763df0d0a",
+      "host": "keybase.io",
+      "kid": "0120f8fb5d3ac1d0b84da812ca0507e2f838f43074cda24c40c536b95eabb763df0d0a",
+      "uid": "0658b1f0cbc947ee3ad7c6ba43b65d19",
+      "username": "aucacoyan"
+    },
+    "merkle_root": {
+      "ctime": 1759491078,
+      "hash": "0abfdc8fa291f8bb6d5dd0a809b31b9523b115162b3627b08a546148865e5e6beba91e05c15fef757f29959bac358c99409f5c4dc71ba8c061a26405e454db08",
+      "hash_meta": "8d42b0f10d1e81fbd6a9055c291b5103a77bfb57d7bcc86de4a6e818c0e32968",
+      "seqno": 27138876
+    },
+    "service": {
+      "entropy": "FuxkfvtP9UbQYfkBhClfWVh1",
+      "hostname": "aucacoyan.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.1"
+  },
+  "ctime": 1759491144,
+  "expire_in": 504576000,
+  "prev": "cfd6a98607fd084635d63d76f404fb408fe8a1325a63d6c9433b5ec267b77a83",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+PtdOsHQuE2oEsoFB+L4OPQwdM2iTEDFNrleq7dj3w0Kp3BheWxvYWTESpcCB8Qgz9aphgf9CEY11j129AT7QI/ooTJaY9bJQztewme3eoPEIMXJgeKKo/t+P21BHSoxmVyjHlHdWorkCu64cLySw5snAgHCo3NpZ8RAyPPlwEclLKBk7S6lgkYYYaBX/bP1XVFBeStigdFUrp0SliyPmT6+N4VkiBweMDmAocvai0BgindXdZDFAMgwBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP5TrpauIu/JjZ4KGMSZRK5yI/WBv+oyzpjmcGoT3dMBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aucacoyan
+
+==================================================================
