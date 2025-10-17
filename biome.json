@@ -1,15 +1,16 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
-  "organizeImports": {
-    "enabled": true
+  "$schema": "https://biomejs.dev/schemas/2.2.6/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!.astro/**"
+    ]
   },
   "linter": {
     "enabled": true,
     "rules": {
-      "all": true
-    },
-    "ignore": [".astro/"],
-    "include": ["."]
+      "recommended": true
+    }
   },
   "json": {
     "parser": {
