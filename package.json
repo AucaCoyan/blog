@@ -19,7 +19,7 @@
     "@astrojs/sitemap": "^3.0.4",
     "@tailwindcss/typography": "^0.5.10",
     "@tailwindcss/vite": "^4.1.16",
-    "astro": "^5.14.5",
+    "astro": "^5.15.3",
     "sharp": "^0.34.4",
     "tailwindcss": "^4.1.16",
     "typescript": "^5.3.3"
