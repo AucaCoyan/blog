@@ -4,6 +4,8 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
+@import "tailwindcss";
+
 .code-word-wrap {
   word-wrap: break-word;
   white-space: pre-wrap;
