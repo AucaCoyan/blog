@@ -1,14 +1,17 @@
-import { defineConfig, passthroughImageService } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
+import { defineConfig, passthroughImageService } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
     site: "https://aucacoyan.com",
-    integrations: [mdx(), sitemap(), tailwind()],
+    integrations: [mdx(), sitemap()],
     output: "static",
     image: {
         service: passthroughImageService(),
     },
+    vite: {
+        plugins: [tailwindcss()]
+    }
 });
