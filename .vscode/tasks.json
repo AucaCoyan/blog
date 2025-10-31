@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "process",
+            "command": "bun",
+            "args": [
+                "run",
+                "dev"
+            ],
+            "problemMatcher": [],
+            "label": "bun run dev",
+            "detail": "astro dev"
+        },
+        {
+            "type": "process",
+            "command": "bun",
+            "isBuildCommand": true,
+            "args": [
+                "run",
+                "build"
+            ],
+            "problemMatcher": [],
+            "label": "bun run build",
+            "detail": "astro build"
+        },
+        {
+            "type": "process",
+            "command": "bun",
+            "args": [
+                "run",
+                "lint"
+            ],
+            "problemMatcher": [],
+            "label": "bun run lint",
+            "detail": "biome check"
+        }
+    ]
+}
