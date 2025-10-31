@@ -12,6 +12,6 @@ export default defineConfig({
 		service: passthroughImageService(),
 	},
 	vite: {
-		plugins: [tailwindcss()],
+		plugins: tailwindcss(),
 	},
 });
