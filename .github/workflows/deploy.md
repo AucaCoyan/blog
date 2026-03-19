@@ -41,5 +41,3 @@ runs-on: ubuntu-latest
           project: "aucacoyan-blog"
           entrypoint: "server/entry.mjs"
           root: "dist"
-
-
