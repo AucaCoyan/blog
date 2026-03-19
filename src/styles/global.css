@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 .code-word-wrap {
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  word-break: break-word;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	word-break: break-word;
 }
 
-/* debugging green border */ 
+/* debugging green border */
 
-/* 
+/*
 * {
   box-sizing: border-box;
   outline: 1px solid limegreen !important;

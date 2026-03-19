@@ -9,8 +9,8 @@ tags: python, vscode, tools
 ---
 
 > Update Feb-2025:
-This is really old, I changed much of this tools for others. I'll update it when
-I have a sec!
+> This is really old, I changed much of this tools for others. I'll update it when
+> I have a sec!
 
 I have many tools which easy my work (almost) everyday, here are a few of them.
 I'll promise I'll update if a new toy comes to the playground!
@@ -28,7 +28,6 @@ I'll promise I'll update if a new toy comes to the playground!
 - 🔍 Better highlight the errors and warnings [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 - My Shell config is always up to date in in my [dotfiles](https://github.com/AucaCoyan/dotfiles) repo, but here is a quick rundown:
-
   - On Windows I use [nushell](https://www.nushell.sh/) in [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), with a customized theme
   - On Ubuntu I use [Fish shell](https://fishshell.com/), also with some [touched settings](https://github.com/AucaCoyan/dotfiles/tree/main/.config/fish)
 
