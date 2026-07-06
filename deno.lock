@@ -9,6 +9,7 @@
     "npm:@tailwindcss/typography@~0.5.10": "0.5.19_tailwindcss@4.2.2",
     "npm:@tailwindcss/vite@^4.2.2": "4.2.2_vite@8.0.8__esbuild@0.28.1",
     "npm:astro@7": "7.0.6_@astrojs+markdown-remark@7.2.1_@emnapi+core@1.11.2_@emnapi+runtime@1.11.2",
+    "npm:playwright@^1.61.1": "1.61.1",
     "npm:prettier-plugin-astro@~0.14.1": "0.14.1",
     "npm:prettier-plugin-tailwindcss@0.8": "0.8.0_prettier@3.8.3_prettier-plugin-astro@0.14.1",
     "npm:prettier@^3.8.3": "3.8.3",
@@ -826,8 +827,6 @@
     "@napi-rs/wasm-runtime@1.1.6_@emnapi+core@1.11.1_@emnapi+runtime@1.11.1": {
       "integrity": "sha512-ZLv/JdUfkvOy9eCnnBaGfiO+XimbjebAeO+MRQqD/B+FR1tnRN0tpKSJHRbE8sFfS6aqsXZ67TQjfwfsxULVbg==",
       "dependencies": [
-        "@emnapi/core@1.11.1",
-        "@emnapi/runtime@1.11.1",
         "@tybys/wasm-util@0.10.3"
       ]
     },
@@ -842,8 +841,6 @@
     "@napi-rs/wasm-runtime@1.1.6_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2": {
       "integrity": "sha512-ZLv/JdUfkvOy9eCnnBaGfiO+XimbjebAeO+MRQqD/B+FR1tnRN0tpKSJHRbE8sFfS6aqsXZ67TQjfwfsxULVbg==",
       "dependencies": [
-        "@emnapi/core@1.9.2",
-        "@emnapi/runtime@1.9.2",
         "@tybys/wasm-util@0.10.3"
       ]
     },
@@ -1763,6 +1760,11 @@
       "dependencies": [
         "tiny-inflate"
       ]
+    },
+    "fsevents@2.3.2": {
+      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+      "os": ["darwin"],
+      "scripts": true
     },
     "fsevents@2.3.3": {
       "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
@@ -2772,6 +2774,20 @@
     "picomatch@4.0.4": {
       "integrity": "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A=="
     },
+    "playwright-core@1.61.1": {
+      "integrity": "sha512-h7Qlt6m4REp25qvIdvbDtVmD4LqVXfpRxhORv9L0jzETM05p4fuPJ3dKyuSXQxDSbXnmS79HAgi9589lGSpLkg==",
+      "bin": true
+    },
+    "playwright@1.61.1": {
+      "integrity": "sha512-DWnY5o3YbLWK4GovuAVwpqL+1VwGNdUGrRr++8j8PtQQzvAVZUIMjKQ90fY689sEJZJBbZVw1rXaOKSTitkzPQ==",
+      "dependencies": [
+        "playwright-core"
+      ],
+      "optionalDependencies": [
+        "fsevents@2.3.2"
+      ],
+      "bin": true
+    },
     "postcss-selector-parser@6.0.10": {
       "integrity": "sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==",
       "dependencies": [
@@ -3391,7 +3407,7 @@
         "tinyglobby"
       ],
       "optionalDependencies": [
-        "fsevents"
+        "fsevents@2.3.3"
       ],
       "optionalPeers": [
         "esbuild"
@@ -3633,6 +3649,7 @@
         "npm:@tailwindcss/typography@~0.5.10",
         "npm:@tailwindcss/vite@^4.2.2",
         "npm:astro@7",
+        "npm:playwright@^1.61.1",
         "npm:prettier-plugin-astro@~0.14.1",
         "npm:prettier-plugin-tailwindcss@0.8",
         "npm:prettier@^3.8.3",
