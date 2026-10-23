@@ -1,18 +1,18 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-astro"],
-  "tailwindConfig": "./tailwind.config.js",
-  "overrides": [
-    {
-      "files": ["*.ts", "*.js", "*.xml.js"],
-      "options": {
-        "tabWidth": 4
-      }
-    },
-    {
-      "files": "*.astro",
-      "options": {
-        "parser": "astro"
-      }
-    }
-  ]
+	"plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-astro"],
+	"tailwindConfig": "./tailwind.config.js",
+	"overrides": [
+		{
+			"files": ["*.ts", "*.js", "*.xml.js"],
+			"options": {
+				"tabWidth": 4
+			}
+		},
+		{
+			"files": "*.astro",
+			"options": {
+				"parser": "astro"
+			}
+		}
+	]
 }
