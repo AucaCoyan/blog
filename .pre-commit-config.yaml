@@ -21,7 +21,7 @@ repos:
     hooks:
       - id: biome check
         name: biome check
-        entry: bun x biome check --write --files-ignore-unknown=true --no-errors-on-unmatched
+        entry: deno run check:lint
         language: system
         types: [text]
         files: "\\.(jsx?|tsx?|c(js|ts)|m(js|ts)|d\\.(ts|cts|mts)|jsonc?|css|svelte|vue|astro|graphql|gql)$"
